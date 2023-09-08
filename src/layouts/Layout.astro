@@ -1,0 +1,35 @@
+---
+import { Header } from "@/components/Header.tsx";
+interface Props {
+  title: string;
+  headerTextColor: string;
+}
+
+const { title, headerTextColor } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="">
+    <Header client:load headerTextColor={headerTextColor} />
+    <slot />
+  </body>
+</html>
+<style is:global>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+</style>
