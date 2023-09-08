@@ -2,9 +2,9 @@ import React from "react";
 
 export const Services = () => {
   return (
-    <div className="min-h-[80vh] inset-0 bg-black bg-opacity-75">
+    <div className="min-h-[80vh] inset-0 bg-black bg-opacity-90">
       {" "}
-      <div className="grid grid-cols-4 bg-black min-h-[24rem]   border-[4px] gap-1 border-black mx-60 grid-rows-2 text-white">
+      <div className="grid grid-cols-4 bg-black min-h-[24rem]   border-[4px] gap-1 border-black px-80 grid-rows-2 text-white">
         <div className="border-[0px] border-black bg-[url(./rims.jpeg)] bg-cover flex flex-col justify-center items-center">
           <h1 className="text-white text-center font-medium text-7xl"></h1>
         </div>

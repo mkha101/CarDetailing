@@ -27,27 +27,27 @@ export const Header = ({ headerTextColor }: Props) => {
             </a>
 
             <ul
-              className={`flex  flex-row text-white tracking-widest text-xl text-opacity-200 gap-16`}
+              className={`flex  flex-row text-white tracking-[0.2em] text-xl text-opacity-200 gap-16`}
             >
-              <li className=" underline-offset-4 hover:border-red-600 font-light">
+              <li className="  hover:text-gray-500 font-semibold">
                 <a href="/">Home</a>
               </li>{" "}
-              <li className=" underline-offset-4 hover:border-red-600 font-light">
+              <li className="  hover:text-gray-500 font-semibold">
                 <a href="/about">Portfolio</a>
               </li>{" "}
               <button
                 onMouseEnter={() => setServices(true)}
-                className="cursor-pointer  hover:border-red-600 font-light"
+                className="cursor-pointer tracking-[0.2em]   hover:text-gray-500 font-semibold"
               >
                 Services
               </button>
-              <li className=" underline-offset-4 hover:border-red-600 font-light">
+              <li className="  hover:text-gray-500 font-semibold">
                 <a href="/about">About</a>
               </li>
             </ul>
             <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>
-              <li className="hover:bg-transparent hover:border-red-600 transition duration-500 ease-in-out hover:text-red-600 border hover:bg-opacity-50  px-10 py-1 rounded-3xl cursor-pointer  font-semibold">
-                <a href="/">Book Us</a>
+              <li className="hover:bg-transparent text-xl  transition duration-500 ease-in-out hover:text-gray-500 border hover:border-gray-500 hover:bg-opacity-50  px-10 py-1 rounded-3xl cursor-pointer  font-semibold">
+                <a href="/">Get Quote!</a>
               </li>
             </ul>
           </nav>
@@ -84,7 +84,7 @@ export const Header = ({ headerTextColor }: Props) => {
       {services && (
         <div
           onMouseLeave={() => setServices(false)}
-          className="absolute w-full top-28  "
+          className="absolute w-full top-32  "
         >
           <Services />
         </div>
