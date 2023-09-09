@@ -51,13 +51,11 @@ export const Header = ({ headerTextColor }: Props) => {
               </li>
             </ul>
           </nav>
-          <nav className=" sm:hidden flex flex-row items-center py-5 px-3 justify-between">
+          <nav className=" sm:hidden flex flex-row items-center  px-3 justify-between">
             <a href="/">
-              <a href="/">
-                <img className="w-40" src="./logo1.png" alt="" />
-              </a>
+              <img className="w-24" src="./logo1.png" alt="" />
             </a>
-            <button onClick={toggleNavbar} className="">
+            <button onClick={toggleNavbar} className="mr-6">
               {" "}
               {isOpen ? <X color="white" /> : <Menu color="white" />}
             </button>
