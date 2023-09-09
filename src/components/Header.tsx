@@ -29,24 +29,24 @@ export const Header = ({ headerTextColor }: Props) => {
             <ul
               className={`flex  flex-row text-white tracking-[0.2em] text-xl text-opacity-200 gap-16`}
             >
-              <li className="  hover:text-gray-500 font-semibold">
+              <li className="  hover:text-gray-500 font-extralight">
                 <a href="/">Home</a>
               </li>{" "}
-              <li className="  hover:text-gray-500 font-semibold">
+              <li className="  hover:text-gray-500 font-extralight">
                 <a href="/about">Portfolio</a>
               </li>{" "}
               <button
                 onMouseEnter={() => setServices(true)}
-                className="cursor-pointer tracking-[0.2em]   hover:text-gray-500 font-semibold"
+                className="cursor-pointer tracking-[0.2em]   hover:text-gray-500 font-extralight"
               >
                 Services
               </button>
-              <li className="  hover:text-gray-500 font-semibold">
+              <li className="  hover:text-gray-500 font-extralight">
                 <a href="/about">About</a>
               </li>
             </ul>
             <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>
-              <li className="hover:bg-transparent text-xl  transition duration-500 ease-in-out hover:text-gray-500 border hover:border-gray-500 hover:bg-opacity-50  px-10 py-1 rounded-3xl cursor-pointer  font-semibold">
+              <li className="hover:bg-transparent text-xl border   transition ease-in-out hover:border-red-700  duration-100 hover:text-red-700 hover:bg-opacity-50  px-10 py-1 rounded-3xl cursor-pointer  font-semibold">
                 <a href="/">Get Quote!</a>
               </li>
             </ul>
@@ -55,13 +55,21 @@ export const Header = ({ headerTextColor }: Props) => {
             <a href="/">
               <img className="w-24" src="./logo1.png" alt="" />
             </a>
-            <button onClick={toggleNavbar} className="mr-6">
+            <button onClick={toggleNavbar} className="mr-3 ">
               {" "}
-              {isOpen ? <X color="white" /> : <Menu color="white" />}
+              {isOpen ? (
+                <X size={35} color="white" />
+              ) : (
+                <Menu size={35} color="white" />
+              )}
             </button>
           </nav>
           {isOpen && (
-            <div className="block sm:hidden bg-black  ">
+            <div
+              className={`block sm:hidden bg-black transform translate-x-0 duration-500 ease-in-out ${
+                isOpen ? "h-[10rem]" : "h-0"
+              }`}
+            >
               <nav className="h-[10rem]  ">
                 <ul className="flex flex-col items-center justify-center text-white gap-6">
                   <li className=" underline-offset-4 hover:text-blue-500 font-semibold">

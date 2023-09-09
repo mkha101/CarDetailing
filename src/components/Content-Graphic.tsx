@@ -5,6 +5,27 @@ import React, { useEffect, useState } from "react";
 
 export const ContentGraphic = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e: any) => {
+    setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: any) => setTouchEnd(e.targetTouches[0].clientX);
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+    if (isLeftSwipe || isRightSwipe)
+      console.log("swipe", isLeftSwipe ? "left" : "right");
+    // add your conditional logic here
+  };
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -45,6 +66,9 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
+            onTouchStart={onTouchStart}
+            onTouchMove={onTouchMove}
+            onTouchEnd={onTouchEnd}
             className="bg-center"
             key={slideIndex}
             style={{
@@ -58,10 +82,10 @@ export const ContentGraphic = () => {
       </div>
       <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-60">
         <div className="mb-20 flex gap-20 flex-col justify-center items-center ">
-          <h1 className="text-white text-3xl text-center font-extrabold sm:text-8xl">
+          <h1 className="text-white text-3xl tracking-widest text-center font-extrabold sm:text-8xl">
             Fall in love with your car <br /> all over again
           </h1>
-          <Button className="bg-transparent font-semibold text-lg hover:bg-transparent hover:border-gray-500 transition duration-500 ease-in-out hover:text-gray-500 border rounded-full px-20 py-6 ">
+          <Button className="bg-transparent tracking-widest font-semibold text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border rounded-full px-20 py-6 ">
             Learn More
           </Button>
           <div className="flex flex-row absolute justify-centers bottom-12 gap-4">
