@@ -21,9 +21,9 @@ export const Header = ({ headerTextColor }: Props) => {
     <header className="w-full bg-black fixed z-10  max-w-screen ">
       <Container>
         <>
-          <nav className="hidden sticky sm:flex flex-row items-center py-2 px-3  justify-between">
+          <nav className="hidden sticky sm:flex flex-row items-center max-h-[8rem]  px-3  justify-between">
             <a href="/">
-              <img className="w-28 " src="./logo1.png" alt="" />
+              <img className="w-36 h-36  " src="./logo1.png" alt="" />
             </a>
 
             <ul
@@ -46,7 +46,7 @@ export const Header = ({ headerTextColor }: Props) => {
               </li>
             </ul>
             <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>
-              <li className="hover:bg-transparent text-xl border   transition ease-in-out hover:border-red-700  duration-100 hover:text-red-700 hover:bg-opacity-50  px-10 py-1 rounded-3xl cursor-pointer  font-semibold">
+              <li className="hover:bg-transparent text-xl border-[2px]   transition ease-in-out hover:border-red-700  duration-100 hover:text-red-700 hover:bg-opacity-50  px-10 py-1 rounded-3xl cursor-pointer  font-semibold">
                 <a href="/">Get Quote!</a>
               </li>
             </ul>
