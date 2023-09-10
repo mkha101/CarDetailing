@@ -8,7 +8,7 @@ interface Props {
   position: string;
 }
 
-export const Header = ({ position }: Props) => {
+export const Header = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [services, setServices] = useState(false);
 
@@ -18,7 +18,9 @@ export const Header = ({ position }: Props) => {
   };
 
   return (
-    <header className={`w-full bg-black   ${position} z-10  max-w-screen `}>
+    <header
+      className={`w-full bg-black   ${props.position} z-10  max-w-screen `}
+    >
       <Container>
         <>
           <nav className="hidden sticky sm:flex flex-row items-center max-h-[8rem]  px-3  justify-between">
