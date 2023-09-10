@@ -33,7 +33,7 @@ export const Footer = () => {
       </div>{" "}
       <div className="flex flex-col items-center justify-center">
         {" "}
-        <img className="w-40 h-40  " src="./logo1.png" alt="" />
+        <img className="w-40 h-40  " src="./src/images//logo1.png" alt="" />
         <div className="flex gap-3 items-center justify-center  flex-row">
           <InstagramIcon className="cursor-pointer hover:text-red-700" />
           <FacebookIcon className="cursor-pointer hover:text-red-700" />
