@@ -1,11 +1,11 @@
 import React from "react";
 import { Button } from "./ui/button";
 
-export const TestimonialsReviews = () => {
+export const AboutUs = () => {
   return (
-    <div className=" bg-zinc-800 flex  flex-row justify-between items-center    text-white">
-      <div className="flex flex-col  w-3/6  items-center justify-center">
-        <div className="flex ml-20 w-96 flex-col gap-4">
+    <div className=" bg-black flex flex-col sm:flex-row justify-between items-center    text-white">
+      <div className="flex flex-col  sm:w-3/6  items-center justify-center">
+        <div className="flex sm:mt-0 mt-10 sm:ml-20 w-80 sm:w-96 flex-col gap-4">
           <h1 className="text-xl text-red-700">About Us</h1>
           <p className="text-6xl font-extrabold">Trusted for Over 10 Years</p>
           <p className=" mt-5 text-zinc-400 [word-spacing:3px] tracking-wide">
@@ -20,7 +20,7 @@ export const TestimonialsReviews = () => {
           </Button>
         </div>
       </div>
-      <div className="w-3/4">
+      <div className="mt-20 sm:mt-0 sm:w-3/4">
         <img className="" src="/vette.jpeg" alt="" />
       </div>
     </div>

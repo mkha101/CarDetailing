@@ -2,16 +2,18 @@
 import { ContentGraphic } from "@/components/Content-Graphic";
 import { Footer } from "@/components/Footer";
 import { ServicesOffered } from "../components/ServicesOffered.tsx";
-import { TestimonialsReviews } from "../components/Testimonials-Reviews.tsx";
+import { AboutUs } from "../components/AboutUs.tsx";
 import Layout from "../layouts/Layout.astro";
 import "@/styles/globals.css";
+import { Testimonials } from "@/components/Testimonials";
 ---
 
 <Layout headerTextColor="white" title="Freelance Template">
   <main class="w-full max-w-screen">
     <ContentGraphic client:load />
     <ServicesOffered />
-    <TestimonialsReviews />
+    <AboutUs />
+    <Testimonials />
     <Footer />
   </main>
 </Layout>
