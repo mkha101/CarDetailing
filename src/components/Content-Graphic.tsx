@@ -40,7 +40,7 @@ export const ContentGraphic = () => {
           display: "flex",
           width: `${slides.length * 100}%`,
           transform: `translateX(-${currentIndex * slideWidth}%)`,
-          transition: "transform 0.8s ease-in-out",
+          transition: "transform 1.2s ease-in-out",
         }}
       >
         {slides.map((slide, slideIndex) => (

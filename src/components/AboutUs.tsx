@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export const AboutUs = () => {
   return (
-    <div className=" bg-black  flex flex-col sm:flex-row justify-between items-center    text-white">
+    <div className=" bg-black min-h-[60vh]  flex flex-col sm:flex-row justify-between items-center    text-white">
       <div className="flex flex-col py-10 sm:w-3/6  items-center justify-center">
         <div className="flex sm:mt-0 sm:ml-20 w-80 sm:w-96 flex-col gap-4">
           <h1 className="text-xl text-red-700">About Us</h1>
@@ -19,6 +19,7 @@ export const AboutUs = () => {
             Learn More
           </Button>
         </div>
+        å
       </div>
       <div className="mt-20 sm:mt-0 sm:w-3/4">
         <img className="" src="/vette.jpeg" alt="" />

@@ -11,18 +11,10 @@ export const Testimonials = () => {
         </h1>
       </div>
       <div className="flex py-10 mt-10 gap-10 flex-col sm:flex-row">
-        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl">
-          ds
-        </div>
-        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl">
-          ds
-        </div>
-        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl">
-          ds
-        </div>
-        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl">
-          ds
-        </div>
+        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl"></div>
+        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl"></div>
+        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl"></div>
+        <div className="border bg-gray-300 shadow-xl w-72 h-72 rounded-xl"></div>
       </div>
     </div>
   );
