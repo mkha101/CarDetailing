@@ -5,10 +5,10 @@ import { X, Menu } from "lucide-react";
 import { Services } from "./Services.tsx";
 
 interface Props {
-  headerTextColor: string;
+  position: string;
 }
 
-export const Header = ({ headerTextColor }: Props) => {
+export const Header = ({ position }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [services, setServices] = useState(false);
 
@@ -18,7 +18,7 @@ export const Header = ({ headerTextColor }: Props) => {
   };
 
   return (
-    <header className="w-full bg-black fixed z-10  max-w-screen ">
+    <header className={`w-full bg-black  ${position} z-10  max-w-screen `}>
       <Container>
         <>
           <nav className="hidden sticky sm:flex flex-row items-center max-h-[8rem]  px-3  justify-between">
@@ -33,7 +33,7 @@ export const Header = ({ headerTextColor }: Props) => {
                 <a href="/">Home</a>
               </li>{" "}
               <li className="  hover:text-gray-500 font-extralight">
-                <a href="/about">Portfolio</a>
+                <a href="/portfolio">Portfolio</a>
               </li>{" "}
               <button
                 onMouseEnter={() => setServices(true)}
@@ -42,7 +42,7 @@ export const Header = ({ headerTextColor }: Props) => {
                 Services
               </button>
               <li className="  hover:text-gray-500 font-extralight">
-                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
             <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>

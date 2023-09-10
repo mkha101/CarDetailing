@@ -1,7 +1,11 @@
 ---
+import { ContactForm } from "@/components/ContactForm";
 import Layout from "../layouts/Layout.astro";
+import "@/styles/globals.css";
 ---
 
-<Layout headerTextColor="black" title="Freelance Template">
-  <main class="w-full max-w-screen"></main>
+<Layout position="sticky" title="Freelance Template">
+  <main class="w-full max-w-screen">
+    <ContactForm />
+  </main>
 </Layout>

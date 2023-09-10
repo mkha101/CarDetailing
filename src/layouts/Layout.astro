@@ -1,11 +1,12 @@
 ---
 import { Header } from "@/components/Header.tsx";
+import type { string } from "astro/zod";
 interface Props {
   title: string;
-  headerTextColor: string;
+  position: string;
 }
 
-const { title, headerTextColor } = Astro.props;
+const { title, position } = Astro.props;
 ---
 
 <!doctype html>
@@ -23,7 +24,7 @@ const { title, headerTextColor } = Astro.props;
     <title>{title}</title>
   </head>
   <body class="">
-    <Header client:load headerTextColor={headerTextColor} />
+    <Header client:load position={position} />
     <slot />
   </body>
 </html>
