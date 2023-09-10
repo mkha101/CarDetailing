@@ -19,7 +19,6 @@ export const AboutUs = () => {
             Learn More
           </Button>
         </div>
-        å
       </div>
       <div className="mt-20 sm:mt-0 sm:w-3/4">
         <img className="" src="/vette.jpeg" alt="" />

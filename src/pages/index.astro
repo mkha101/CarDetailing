@@ -10,10 +10,10 @@ import { Testimonials } from "@/components/Testimonials";
 
 <Layout position="fixed" title="Freelance Template">
   <main class="w-full max-w-screen">
-    <ContentGraphic client:load />
-    <ServicesOffered />
-    <AboutUs />
-    <Testimonials />
-    <Footer />
+    <ContentGraphic client:only="'react" />
+    <ServicesOffered client:only="react" />
+    <AboutUs client:only="react" />
+    <Testimonials client:only="react" />
+    <Footer client:only="react" />
   </main>
 </Layout>
