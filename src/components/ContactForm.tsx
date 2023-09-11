@@ -173,7 +173,7 @@ export const ContactForm = () => {
             {" "}
             <Button
               type="submit"
-              className="bg-transparent text-black tracking-widest font-semibold text-xl hover:bg-transparent hover:border-red-700 transition border-black duration-100 ease-in-out hover:text-red-700 border-[2px] w-full mx-3 rounded-full  "
+              className="bg-transparent text-black tracking-widest font-semibold text-xl hover:bg-transparent hover:border-red-700 transition border-black duration-100 ease-in-out hover:text-red-700 border-[2px] w-full mx-6 rounded-full  "
             >
               Submit
             </Button>
