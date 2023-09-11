@@ -33,7 +33,7 @@ export const ContentGraphic = () => {
         width: "100%",
         overflow: "hidden",
       }}
-      className="min-h-[90vh] z-0 relative"
+      className="min-h-screen z-0 relative"
     >
       <div
         style={{
@@ -51,7 +51,7 @@ export const ContentGraphic = () => {
               flex: `0 0 ${slideWidth}%`,
               backgroundImage: `url(${slide.url})`,
               backgroundSize: "cover",
-              height: "90vh",
+              height: "100vh",
             }}
           ></div>
         ))}
