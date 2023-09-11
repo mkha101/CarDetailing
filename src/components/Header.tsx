@@ -68,22 +68,21 @@ export const Header = (props: Props) => {
             </button>
           </nav>
           {isOpen && (
-            <div
-              className={`block sm:hidden bg-black transform translate-x-0 duration-500 ease-in-out ${
-                isOpen ? "h-[10rem]" : "h-0"
-              }`}
-            >
-              <nav className="h-[10rem]  ">
+            <div className="block sm:hidden  bg-black ">
+              <nav className=" pb-5 ">
                 <ul className="flex flex-col items-center justify-center text-white gap-6">
-                  <li className=" underline-offset-4 hover:text-blue-500 font-semibold">
+                  <li className="  hover:text-gray-500 font-extralight">
                     <a href="/">Home</a>
-                  </li>
-                  <li className=" underline-offset-4 hover:text-blue-500 font-semibold">
-                    <a href="/">Contact</a>
-                  </li>
-                  <li className=" underline-offset-4 hover:text-blue-500 font-semibold">
-                    <a href="/">About</a>
-                  </li>
+                  </li>{" "}
+                  <li className="  hover:text-gray-500 font-extralight">
+                    <a href="/portfolio">Portfolio</a>
+                  </li>{" "}
+                  <li className="  hover:text-gray-500 font-extralight">
+                    <a href="/services">Services</a>
+                  </li>{" "}
+                  <li className="  hover:text-gray-500 font-extralight">
+                    <a href="/contact">Contact</a>
+                  </li>{" "}
                 </ul>
               </nav>
             </div>
