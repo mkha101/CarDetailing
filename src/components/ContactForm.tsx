@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Button } from "./ui/button";
+import { Textarea } from "@/components/ui/textarea";
 
 export const ContactForm = () => {
   return (
@@ -149,10 +150,9 @@ export const ContactForm = () => {
             <Label className="text-md" htmlFor="pkg">
               Packages:
             </Label>
-            <Input
+            <Textarea
               required
               className="border-none h-8"
-              type="text"
               id="pkg"
               placeholder="Packages"
             />
@@ -162,13 +162,21 @@ export const ContactForm = () => {
             <Label className="text-md" htmlFor="details">
               Any other details:
             </Label>
-            <Input
+            <Textarea
               required
-              className="border-none h-8"
-              type="text"
+              className="border-none "
               id="details"
               placeholder="Details"
             />
+          </div>
+          <div className="flex items-center justify-center">
+            {" "}
+            <Button
+              type="submit"
+              className="bg-transparent text-black tracking-widest font-semibold text-xl hover:bg-transparent hover:border-red-700 transition border-black duration-100 ease-in-out hover:text-red-700 border-[2px] w-full mx-3 rounded-full  "
+            >
+              Submit
+            </Button>
           </div>
         </div>
       </form>

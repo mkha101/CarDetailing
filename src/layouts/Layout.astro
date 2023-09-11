@@ -1,4 +1,5 @@
 ---
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header.tsx";
 
 interface Props {
@@ -26,6 +27,7 @@ const { title, positionprop } = Astro.props as Props;
   <body class="">
     <Header client:load positionprop={positionprop} />
     <slot />
+    <Footer />
   </body>
 </html>
 <style is:global>
