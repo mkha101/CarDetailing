@@ -6,11 +6,11 @@ export const AboutUs = () => {
     <div className=" bg-black min-h-[60vh]  flex flex-col sm:flex-row justify-between items-center    text-white">
       <div className="flex flex-col py-10 sm:w-3/6  items-center justify-center">
         <div className="flex sm:mt-0 sm:ml-20 w-80 sm:w-96 flex-col gap-4">
-          <h1 className="text-xl underline decoration-red-700 decoration-2 underline-offset-8">
+          <h1 className="text-lg underline decoration-red-700 decoration-2 underline-offset-8">
             About Us
           </h1>
-          <p className="text-6xl font-extrabold">Trusted for Over 10 Years</p>
-          <p className=" mt-5 text-zinc-400 [word-spacing:3px] tracking-wide">
+          <p className="text-4xl font-extrabold">Trusted for Over 10 Years</p>
+          <p className="text-md mt-5 text-zinc-400 [word-spacing:3px] tracking-wide">
             Founded by a team of car aficionados, [Your Company Name] was born
             out of a shared love for cars and a desire to provide the best
             possible care for them. Our journey began in [Year Established] with
