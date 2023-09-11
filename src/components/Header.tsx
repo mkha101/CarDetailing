@@ -19,7 +19,9 @@ export const Header = (props: Props) => {
   };
 
   return (
-    <header className={` ${positionprop} w-full bg-black z-10  max-w-screen `}>
+    <header
+      className={` ${positionprop} sticky w-full bg-black z-10  max-w-screen `}
+    >
       <Container>
         <>
           <nav

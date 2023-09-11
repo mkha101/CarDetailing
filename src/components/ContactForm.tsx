@@ -14,7 +14,7 @@ export const ContactForm = () => {
           Get a Quote
         </h1>
       </div>
-      <form method="POST" action="">
+      <form>
         <div className="border rounded-b-none rounded-t-3xl py-5 bg-black  w-96 "></div>
         <div className="flex flex-col  gap-5 border bg-zinc-100 shadow-xl  w-96 mb-20  py-5 rounded-b-3xl  ">
           <h1 className="px-5 text-xl font-bold">
