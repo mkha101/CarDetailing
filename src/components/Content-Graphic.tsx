@@ -33,7 +33,7 @@ export const ContentGraphic = () => {
         width: "100%",
         overflow: "hidden",
       }}
-      className="min-h-screen z-0 relative"
+      className="sm:min-h-screen min-h-[85vh] z-0 relative"
     >
       <div
         style={{
@@ -45,19 +45,18 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
-            className="bg-center"
+            className="bg-center sm:min-h-screen min-h-[85vh]"
             key={slideIndex}
             style={{
               flex: `0 0 ${slideWidth}%`,
               backgroundImage: `url(${slide.url})`,
               backgroundSize: "cover",
-              height: "100vh",
             }}
           ></div>
         ))}
       </div>
       <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-60">
-        <div className="mb-20 flex gap-20 flex-col justify-center items-center ">
+        <div className=" flex gap-20 flex-col justify-center items-center ">
           <h1 className="text-white text-3xl tracking-widest text-center font-extrabold sm:text-8xl">
             Fall in love with your car <br /> all over again
           </h1>
