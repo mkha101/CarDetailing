@@ -33,7 +33,7 @@ export const ContentGraphic = () => {
         width: "100%",
         overflow: "hidden",
       }}
-      className="min-h-screen z-0 relative"
+      className="sm:min-h-screen min-h-[70vh] z-0 relative"
     >
       <div
         style={{
@@ -51,7 +51,7 @@ export const ContentGraphic = () => {
               flex: `0 0 ${slideWidth}%`,
               backgroundImage: `url(${slide.url})`,
               backgroundSize: "cover",
-              height: "100vh",
+              height: "70vh",
             }}
           ></div>
         ))}
@@ -80,6 +80,12 @@ export const ContentGraphic = () => {
           </div>
           <div className="absolute  hidden sm:block cursor-pointer left-2 sm:left-14">
             <ChevronLeft onClick={prevSlide} size={56} color="white" />
+          </div>
+          <div className="absolute block sm:hidden cursor-pointer  bottom-9  right-6 sm:right-14">
+            <ChevronRight onClick={nextSlide} size={36} color="white" />
+          </div>
+          <div className="absolute  block sm:hidden cursor-pointer bottom-9  left-6 sm:left-14">
+            <ChevronLeft onClick={prevSlide} size={36} color="white" />
           </div>
         </div>
       </div>
