@@ -1,6 +1,7 @@
 import React from "react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Button } from "./ui/button";
 
 export const ContactForm = () => {
@@ -13,12 +14,14 @@ export const ContactForm = () => {
         </h1>
       </div>
       <form method="POST" action="">
-        <div className="border rounded-b-none rounded-t-3xl py-5 bg-black w-80 "></div>
-        <div className="flex flex-col  gap-5 border bg-zinc-100 shadow-xl  w-80  py-5 rounded-b-3xl  ">
-          <h1 className="px-5 font-bold">Step 1: Your Contact Details</h1>
+        <div className="border rounded-b-none rounded-t-3xl py-5 bg-black  w-96 "></div>
+        <div className="flex flex-col  gap-5 border bg-zinc-100 shadow-xl  w-96 mb-20  py-5 rounded-b-3xl  ">
+          <h1 className="px-5 text-xl font-bold">
+            Step 1: Your Contact Details
+          </h1>
           <div className="flex flex-col gap-2 px-5">
             {" "}
-            <Label className="w-20" htmlFor="name">
+            <Label className="w-20 text-md" htmlFor="name">
               Your Name:
             </Label>
             <Input
@@ -30,9 +33,9 @@ export const ContactForm = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-2 px-5 ">
+          <div className="flex flex-col  gap-2 px-5 ">
             {" "}
-            <Label className="" htmlFor="email">
+            <Label className="text-md" htmlFor="email">
               Email:
             </Label>
             <Input
@@ -45,7 +48,7 @@ export const ContactForm = () => {
           </div>
           <div className="flex flex-col  gap-2 px-5  ">
             {" "}
-            <Label className="w-28" htmlFor="num">
+            <Label className="text-md" htmlFor="num">
               Mobile Number:
             </Label>
             <Input
@@ -58,10 +61,12 @@ export const ContactForm = () => {
           </div>
           <div className="border-black border-[1px] w-full"></div>
 
-          <h1 className="px-5 font-bold">Step 2: Your Vehicle Information</h1>
+          <h1 className="px-5 text-xl font-bold">
+            Step 2: Your Vehicle Information
+          </h1>
           <div className="flex flex-col gap-2 px-5 ">
             {" "}
-            <Label className="w-20" htmlFor="vmake">
+            <Label className="w-20 text-md" htmlFor="vmake">
               Vehicle Make:
             </Label>
             <Input
@@ -75,7 +80,7 @@ export const ContactForm = () => {
 
           <div className="flex flex-col gap-2 px-5 ">
             {" "}
-            <Label className="" htmlFor="year">
+            <Label className="text-md" htmlFor="year">
               Year:
             </Label>
             <Input
@@ -88,7 +93,7 @@ export const ContactForm = () => {
           </div>
           <div className="flex flex-col px-5 gap-2  ">
             {" "}
-            <Label className="w-28" htmlFor="vmodel">
+            <Label className="text-md" htmlFor="vmodel">
               Vehicle Model:
             </Label>
             <Input
@@ -101,45 +106,68 @@ export const ContactForm = () => {
           </div>
           <div className="border-black border-[1px] w-full"></div>
 
-          <h1 className="px-5 font-bold">Step 3: Add Services</h1>
-          <div className="flex flex-col gap-2 px-5 ">
+          <h1 className="px-5 text-xl font-bold">Step 3: Add Services</h1>
+          <RadioGroup
+            className="px-5 flex flex-row flex-wrap gap-3"
+            defaultValue="option-one"
+          >
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-one" id="option-one" />
+              <Label htmlFor="option-one">Option One</Label>
+            </div>
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-two" id="option-two" />
+              <Label htmlFor="option-two">Option Two</Label>
+            </div>
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-two" id="option-two" />
+              <Label htmlFor="option-two">Option Two</Label>
+            </div>
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-two" id="option-two" />
+              <Label htmlFor="option-two">Option Two</Label>
+            </div>
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-two" id="option-two" />
+              <Label htmlFor="option-two">Option Two</Label>
+            </div>
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-two" id="option-two" />
+              <Label htmlFor="option-two">Option Two</Label>
+            </div>
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-two" id="option-two" />
+              <Label htmlFor="option-two">Option Two</Label>
+            </div>
+            <div className="flex items-center space-x-1">
+              <RadioGroupItem value="option-two" id="option-two" />
+              <Label htmlFor="option-two">Option Two</Label>
+            </div>
+          </RadioGroup>
+          <div className="flex flex-col px-5 gap-2  ">
             {" "}
-            <Label className="w-20" htmlFor="vmake">
-              Vehicle Make:
-            </Label>
-            <Input
-              required
-              className="h-8 border-none"
-              type="text"
-              id="vmake"
-              placeholder="e.g. Mercedes"
-            />
-          </div>
-
-          <div className="flex flex-col gap-2 px-5 ">
-            {" "}
-            <Label className="" htmlFor="year">
-              Year:
+            <Label className="text-md" htmlFor="pkg">
+              Packages:
             </Label>
             <Input
               required
               className="border-none h-8"
-              type="number"
-              id="year"
-              placeholder="e.g. 2023"
+              type="text"
+              id="pkg"
+              placeholder="Packages"
             />
           </div>
           <div className="flex flex-col px-5 gap-2  ">
             {" "}
-            <Label className="w-28" htmlFor="vmodel">
-              Vehicle Model:
+            <Label className="text-md" htmlFor="details">
+              Any other details:
             </Label>
             <Input
               required
               className="border-none h-8"
               type="text"
-              id="vmodel"
-              placeholder="e.g. C300"
+              id="details"
+              placeholder="Details"
             />
           </div>
         </div>
