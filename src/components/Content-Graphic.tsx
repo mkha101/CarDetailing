@@ -28,7 +28,13 @@ export const ContentGraphic = () => {
 
   const slideWidth = 100 / slides.length;
   return (
-    <div className="sm:min-h-screen min-screen[90vh] w-full overflow-hidden z-0 relative">
+    <div
+      style={{
+        width: "100%",
+        overflow: "hidden",
+      }}
+      className="min-h-[90vh] z-0 relative"
+    >
       <div
         style={{
           display: "flex",
@@ -39,12 +45,13 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
-            className={`bg-center bg-cover bg-[url(${slide.url})] min-h-[90vh] sm:min-h-screen `}
+            className="bg-center"
             key={slideIndex}
             style={{
               flex: `0 0 ${slideWidth}%`,
               backgroundImage: `url(${slide.url})`,
               backgroundSize: "cover",
+              height: "90vh",
             }}
           ></div>
         ))}
