@@ -33,7 +33,7 @@ export const ContentGraphic = () => {
         width: "100%",
         overflow: "hidden",
       }}
-      className="sm:min-h-screen min-h-[85vh] z-0 relative"
+      className="sm:min-h-screen min-h-[88vh] z-0 relative"
     >
       <div
         style={{
@@ -45,7 +45,7 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
-            className="bg-center sm:min-h-screen min-h-[85vh]"
+            className="bg-center sm:min-h-screen min-h-[88vh]"
             key={slideIndex}
             style={{
               flex: `0 0 ${slideWidth}%`,
@@ -56,11 +56,11 @@ export const ContentGraphic = () => {
         ))}
       </div>
       <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-60">
-        <div className=" flex gap-20 flex-col justify-center items-center ">
-          <h1 className="text-white text-3xl tracking-widest text-center font-extrabold sm:text-8xl">
+        <div className=" flex sm:gap-10 gap-5 flex-col justify-center items-center ">
+          <h1 className="text-white text-2xl tracking-widest text-center font-extrabold xl:text-7xl lg:text-5xl">
             Fall in love with your car <br /> all over again
           </h1>
-          <Button className="bg-transparent tracking-widest font-semibold text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-20 py-6 ">
+          <Button className="bg-transparent tracking-widest font-semibold text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-5  sm:px-20 sm:py-6 ">
             Learn More
           </Button>
           <div className="flex flex-row absolute justify-centers bottom-12 gap-4">
