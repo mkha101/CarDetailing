@@ -23,7 +23,7 @@ export const AboutUs = () => {
         </div>
       </div>
       <div className="mt-20 sm:mt-0 sm:w-3/4">
-        <img className="" src="/vette.jpeg" alt="" />
+        <img className="object-cover w-full h-full" src="/vette.jpeg" alt="" />
       </div>
       <div className="sm:hidden grid grid-cols-2 grid-rows-1">
         <div>
