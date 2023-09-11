@@ -23,7 +23,7 @@ export const Header = ({ position }: Props) => {
         <>
           <nav className="hidden sticky sm:flex flex-row items-center max-h-[8rem]  px-3  justify-between">
             <a href="/">
-              <img className="w-36 h-36" src="/src/images/logo1.png" alt="" />
+              <img className="w-36 h-36  " src="./images/logo1.png" alt="" />
             </a>
 
             <ul
