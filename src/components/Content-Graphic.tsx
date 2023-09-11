@@ -33,7 +33,7 @@ export const ContentGraphic = () => {
         width: "100%",
         overflow: "hidden",
       }}
-      className="sm:min-h-screen min-h-[88vh] z-0 relative"
+      className="sm:min-h-screen min-h-[90vh] z-0 relative"
     >
       <div
         style={{
@@ -45,7 +45,7 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
-            className="bg-center sm:min-h-screen min-h-[88vh]"
+            className="bg-center sm:min-h-screen min-h-[90vh]"
             key={slideIndex}
             style={{
               flex: `0 0 ${slideWidth}%`,
