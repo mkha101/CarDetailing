@@ -8,10 +8,10 @@ export const ServicesOffered = () => {
           <img
             src="/rims.jpeg"
             alt=""
-            className="object-cover w-full h-full  shadow-inner opacity-60 "
+            className="object-cover  w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white text-center font-medium text-3xl">
+            <h1 className="ttext-white uppercase tracking-tighter text-3xl text-center font-black xl:text-7xl lg:text-5xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>
@@ -21,10 +21,10 @@ export const ServicesOffered = () => {
           <img
             src="/matte.webp"
             alt=""
-            className="object-cover w-full h-full  shadow-inner opacity-60 "
+            className="object-cover w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white text-center font-medium text-3xl">
+            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black xl:text-7xl lg:text-5xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>
@@ -34,10 +34,10 @@ export const ServicesOffered = () => {
           <img
             src="/rim.jpeg"
             alt=""
-            className="object-cover w-full h-full  shadow-inner opacity-60 "
+            className="object-cover backdr w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white text-center font-medium text-3xl">
+            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black xl:text-7xl lg:text-5xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>
@@ -47,10 +47,10 @@ export const ServicesOffered = () => {
           <img
             src="/porsche.jpeg"
             alt=""
-            className="object-cover w-full h-full  shadow-inner opacity-60 "
+            className="object-cover w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white text-center font-medium text-3xl">
+            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black xl:text-7xl lg:text-5xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>

@@ -55,7 +55,7 @@ export const ContentGraphic = () => {
           ></div>
         ))}
       </div>
-      <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-60">
+      <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-40">
         <div className=" flex sm:gap-10 gap-5 flex-col justify-center items-center ">
           <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black xl:text-7xl lg:text-5xl">
             Fall in <span className="text-red-700">love</span> with your <br />
