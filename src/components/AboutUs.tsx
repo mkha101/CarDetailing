@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 export const AboutUs = () => {
   return (
-    <div className=" bg-black min-h-[60vh]  flex flex-col sm:flex-row justify-between items-center    text-white">
+    <div className=" bg-black min-h-[60vh] flex flex-col sm:flex-row justify-between items-center    text-white">
       <div className="flex flex-col sm:py-10 sm:w-3/6  items-center justify-center">
         <div className="flex max-sm:relative sm:mt-0 sm:ml-20  w-full h-full sm:w-96 flex-col gap-4">
           <img
@@ -30,8 +30,8 @@ export const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="sm:mt-0 sm:w-3/4">
-        <img className="object-cover w-full h-full" src="/vette.jpeg" alt="" />
+      <div className="sm:mt-0  sm:w-2/4">
+        <img className="  object-cover" src="/vette.jpeg" alt="" />
       </div>
       <div className="sm:hidden grid grid-cols-2 grid-rows-1">
         <div>

@@ -25,14 +25,14 @@ export const Header = (props: Props) => {
       <Container>
         <>
           <nav
-            className={`hidden   lg:flex flex-row items-center max-h-[8rem]  px-3  justify-between`}
+            className={`hidden   lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between`}
           >
             <a href="/">
               <img className="w-36 h-36  " src="/logo1.png" alt="" />
             </a>
 
             <ul
-              className={`flex  flex-row text-white tracking-[0.2em] text-xl text-opacity-200 gap-16`}
+              className={`flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16`}
             >
               <li className="  hover:text-gray-500 font-extralight">
                 <a href="/">Home</a>
@@ -51,7 +51,7 @@ export const Header = (props: Props) => {
               </li>
             </ul>
             <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>
-              <li className="hover:bg-transparent text-xl border-[2px]   transition ease-in-out hover:border-red-700  duration-100 hover:text-red-700 hover:bg-opacity-50  px-10 py-1 rounded-3xl cursor-pointer  font-semibold">
+              <li className="hover:bg-transparent text-xl border-[2px]   transition ease-in-out hover:border-red-700  duration-100 hover:text-red-700 hover:bg-opacity-50  px-7 py-1 rounded-3xl cursor-pointer  font-semibold">
                 <a href="/">Get Quote!</a>
               </li>
             </ul>
