@@ -25,7 +25,7 @@ export const Header = (props: Props) => {
       <Container>
         <>
           <nav
-            className={`hidden   sm:flex flex-row items-center max-h-[8rem]  px-3  justify-between`}
+            className={`hidden   lg:flex flex-row items-center max-h-[8rem]  px-3  justify-between`}
           >
             <a href="/">
               <img className="w-36 h-36  " src="/logo1.png" alt="" />
@@ -56,7 +56,7 @@ export const Header = (props: Props) => {
               </li>
             </ul>
           </nav>
-          <nav className=" sm:hidden flex flex-row items-center  px-3 justify-between">
+          <nav className=" lg:hidden flex flex-row items-center  px-3 justify-between">
             <a href="/">
               <img className="w-24" src="./logo1.png" alt="" />
             </a>
@@ -70,7 +70,7 @@ export const Header = (props: Props) => {
             </button>
           </nav>
           {isOpen && (
-            <div className="block sm:hidden  bg-black ">
+            <div className="block lg:hidden  bg-black ">
               <nav className=" pb-5 ">
                 <ul className="flex flex-col items-center justify-center text-white gap-6">
                   <li className="  hover:text-gray-500 font-extralight">
