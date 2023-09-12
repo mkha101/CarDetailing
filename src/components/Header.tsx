@@ -94,7 +94,7 @@ export const Header = (props: Props) => {
       {services && (
         <div
           onMouseLeave={() => setServices(false)}
-          className="absolute w-full top-32  "
+          className="absolute w-full top-24  "
         >
           <Services />
         </div>
