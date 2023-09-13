@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 export const ContactForm = () => {
   return (
     <div className="w-full mt-10 flex flex-col items-center  gap-10 max-w-screen ">
-      <div className="flex uppercase px-5 justify-center gap-3 flex-col ">
+      <div className="flex uppercase px-6 justify-center gap-3 flex-col ">
         <h1 className="text-lg font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
           Get a Quote
         </h1>
@@ -17,8 +17,7 @@ export const ContactForm = () => {
         </p>
       </div>
       <form>
-        <div className="border rounded-b-none rounded-t-3xl py-5 bg-black  w-96 "></div>
-        <div className="flex flex-col  gap-5 border bg-zinc-100 shadow-xl  w-96 mb-20  py-5 rounded-b-3xl  ">
+        <div className="flex flex-col  gap-5 border bg-zinc-100 shadow-xl px-3  w-96 mb-20  py-5 rounded-3xl  ">
           <h1 className="px-5 text-xl font-semibold">
             Step 1: Your Contact Details
           </h1>
@@ -62,7 +61,7 @@ export const ContactForm = () => {
               placeholder="Enter your number"
             />
           </div>
-          <div className="border-black border-[1px] w-full"></div>
+          <div className=" border-[1px] w-full"></div>
 
           <h1 className="px-5 text-xl font-semibold">
             Step 2: Your Vehicle Information
@@ -107,7 +106,7 @@ export const ContactForm = () => {
               placeholder="e.g. C300"
             />
           </div>
-          <div className="border-black border-[1px] w-full"></div>
+          <div className=" border-[1px] w-full"></div>
 
           <h1 className="px-5 text-xl font-semibold">Step 3: Add Services</h1>
           <RadioGroup
@@ -175,7 +174,7 @@ export const ContactForm = () => {
             {" "}
             <Button
               type="submit"
-              className="bg-transparent text-black tracking-widest font-bold text-xl hover:bg-transparent hover:border-red-700 transition border-black duration-100 ease-in-out hover:text-red-700 border-[2px] w-full mx-6 rounded-full  "
+              className="bg-blue-500 hover:bg-blue-400 text-white tracking-wide font-bold text-xl  transition  duration-100 ease-in-out  w-full mx-6 rounded-full  "
             >
               Submit
             </Button>
