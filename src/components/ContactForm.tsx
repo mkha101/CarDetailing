@@ -10,7 +10,7 @@ export const ContactForm = () => {
     <div className="w-full mt-10 flex flex-col items-center  gap-10 max-w-screen ">
       <div className="flex justify-center items-center">
         {" "}
-        <h1 className="text-3xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
+        <h1 className="text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
           Get a Quote
         </h1>
       </div>

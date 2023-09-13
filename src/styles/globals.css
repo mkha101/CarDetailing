@@ -1,14 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  background-color: #12002f;
+  padding-top: 120px;
+  transition: 0.4s;
 }
 
-.reveal.revealed {
-  opacity: 1;
-  transform: translateY(0);
+.mobile-nav.is-active {
+  left: 0;
 }
