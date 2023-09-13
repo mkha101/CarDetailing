@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 export const ContactForm = () => {
   return (
     <div className="w-full mt-10 flex flex-col items-center  gap-10 max-w-screen ">
-      <div className="flex uppercase px-6 justify-center gap-3 flex-col ">
+      <div className="flex uppercase px-3 ml-9 justify-center gap-3 flex-col ">
         <h1 className="text-lg font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
           Get a Quote
         </h1>

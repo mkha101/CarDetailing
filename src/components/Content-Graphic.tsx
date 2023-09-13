@@ -56,12 +56,20 @@ export const ContentGraphic = () => {
         ))}
       </div>
       <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-40">
-        <div className=" flex sm:gap-10 gap-5 px-4 flex-col justify-center items-center ">
-          <h1 className="text-white uppercase tracking-normal text-3xl text-center font-bold xl:text-7xl lg:text-5xl">
-            Fall in <span className="text-red-700">love</span> with your <br />
-            car all over again
-          </h1>
-          <Button className="bg-transparent  font-bold text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-5  sm:px-20 sm:py-6 ">
+        <div className=" flex sm:gap-10 gap-12 mt-10 px-4 flex-col justify-center items-center ">
+          <div className="flex flex-col gap-2 items-center">
+            {" "}
+            <p className="text-sm  text-white font-semibold">
+              Premium Auto Detailing
+            </p>
+            <h1 className="text-white uppercase tracking-normal text-3xl text-center font-bold xl:text-7xl lg:text-5xl">
+              Fall in <span className="text-red-700">love</span> with your{" "}
+              <br />
+              car all over again
+            </h1>
+          </div>
+
+          <Button className="bg-transparent  font-bold text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-28 py-5  sm:px-20 sm:py-6 ">
             Learn More
           </Button>
           <div className="flex flex-row absolute justify-centers bottom-12 gap-4">
