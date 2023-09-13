@@ -1,7 +1,7 @@
 ---
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header.tsx";
-import "@fontsource/inter";
+import "@fontsource-variable/inter";
 
 interface Props {
   title: string;
@@ -29,6 +29,6 @@ const { title, positionprop } = Astro.props as Props;
 </html>
 <style is:global>
   body {
-    font-family: "Inter";
+    font-family: "Inter Variable", sans-serif;
   }
 </style>

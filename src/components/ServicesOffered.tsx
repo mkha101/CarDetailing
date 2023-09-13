@@ -4,10 +4,10 @@ export const ServicesOffered = () => {
   return (
     <div className="bg-black text-black">
       <div className="text-white uppercase flex flex-col gap-3  py-12 px-6 items-start border-[8px] sm:border-[16px] border-black">
-        <h1 className="text-base font-bold underline decoration-red-700 decoration-2 underline-offset-8">
+        <h1 className="text-base font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
           Our Services
         </h1>
-        <p className="font-extrabold text-2xl">Top-Tier Detailing Services</p>
+        <p className="font-bold text-2xl">Top-Tier Detailing Services</p>
       </div>
 
       <div className="grid  sm:grid-cols-2 grid-col-4 sm:max-h-screen border-x-[8px] sm:border-x-[16px] gap-2 sm:gap-3 border-black min-w-screen w-full grid-rows-4 sm:grid-rows-2 text-white">
@@ -18,7 +18,7 @@ export const ServicesOffered = () => {
             className="object-cover  w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>
@@ -31,7 +31,7 @@ export const ServicesOffered = () => {
             className="object-cover w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>
@@ -44,7 +44,7 @@ export const ServicesOffered = () => {
             className="object-cover backdr w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>
@@ -57,7 +57,7 @@ export const ServicesOffered = () => {
             className="object-cover w-full h-full  shadow-inner opacity-70 "
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-black md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white uppercase tracking-tighter text-3xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Ceramic Coating
             </h1>
             <p>Your text here</p>
