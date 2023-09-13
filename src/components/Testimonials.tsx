@@ -4,7 +4,7 @@ export const Testimonials = () => {
   return (
     <div className=" bg-white flex border-b-2 border-b-black flex-col items-center    text-white">
       <div className="mt-10 w-96 flex flex-col gap-4">
-        <h1 className="text-xl text-center text-black underline decoration-red-700 decoration-2 underline-offset-8">
+        <h1 className="text-xl  font-bold uppercase text-center text-black underline decoration-red-700 decoration-2 underline-offset-8">
           Reviews
         </h1>
         <h1 className="text-3xl text-center text-black absolute "></h1>

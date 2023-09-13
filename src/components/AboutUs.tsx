@@ -13,10 +13,12 @@ export const AboutUs = () => {
 
           <div className="flex max-sm:absolute m-10 sm:mt-0 sm:ml-20 w-80 sm:w-96 flex-col gap-4">
             {" "}
-            <h1 className="text-lg underline decoration-red-700 decoration-2 underline-offset-8">
+            <h1 className="text-base uppercase underline decoration-red-700 decoration-2 underline-offset-8">
               About Us
             </h1>
-            <p className="text-4xl font-extrabold">Trusted for Over 10 Years</p>
+            <p className="text-3xl uppercase font-extrabold">
+              Trusted for Over 10 Years
+            </p>
             <p className="text-md mt-5 text-zinc-400 [word-spacing:3px] tracking-wide">
               Founded by a team of car aficionados, [Your Company Name] was born
               out of a shared love for cars and a desire to provide the best

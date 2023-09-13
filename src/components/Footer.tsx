@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <footer className=" text-white gap-10  bg-black py-20 flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center gap-3">
-        <h1 className="text-lg underline decoration-red-700 decoration-2 underline-offset-8 ">
+        <h1 className="text-lg uppercase underline decoration-red-700 decoration-2 underline-offset-8 ">
           Pages
         </h1>
         <ul className="flex text-base flex-col justify-center items-center gap-3">
@@ -21,7 +21,7 @@ export const Footer = () => {
           <li className="cursor-pointer hover:text-red-700">Contact</li>
         </ul>
       </div>{" "}
-      <div className="flex flex-col justify-center items-center gap-3">
+      <div className="flex uppercase flex-col justify-center items-center gap-3">
         <h1 className="text-lg underline decoration-red-700 decoration-2 underline-offset-8 ">
           Business Info
         </h1>

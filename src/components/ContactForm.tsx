@@ -8,11 +8,13 @@ import { Textarea } from "@/components/ui/textarea";
 export const ContactForm = () => {
   return (
     <div className="w-full mt-10 flex flex-col items-center  gap-10 max-w-screen ">
-      <div className="flex justify-center items-center">
-        {" "}
-        <h1 className="text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
+      <div className="flex uppercase px-5 justify-center gap-3 flex-col ">
+        <h1 className="text-lg font-bold underline decoration-red-700 decoration-2 underline-offset-8">
           Get a Quote
         </h1>
+        <p className="text-2xl font-extrabold">
+          If you like what you see, Contact Us
+        </p>
       </div>
       <form>
         <div className="border rounded-b-none rounded-t-3xl py-5 bg-black  w-96 "></div>
