@@ -54,7 +54,7 @@ export const MobileNavList = () => {
   return (
     <div>
       {" "}
-      <nav className="lg:hidden flex flex-row items-center px-3 justify-between">
+      <nav className="lg:hidden flex  flex-row items-center px-3 max-h-[11vh]  justify-between">
         <a href="/">
           <img className="w-24 pt-3" src="./logo1.png" alt="" />
         </a>
