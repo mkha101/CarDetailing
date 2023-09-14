@@ -4,6 +4,8 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Button } from "./ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import "@/styles/globals.css";
+
 import {
   ArrowDown,
   LucideArrowDownCircle,
@@ -30,7 +32,7 @@ export const ContactForm = () => {
         <div className="w-1/2  bg-white hidden sm:block "></div>
         <div className="flex sm:w-1/2 w-full  flex-col items-center gap-10 ">
           {" "}
-          <div className="flex sm:hidden sm:items-center uppercase px-3 ml-9 justify-center gap-3 flex-col ">
+          <div className="flex sm:hidden sm:items-center uppercase px-3 ml-6 justify-center gap-3 flex-col ">
             <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
               Get a Quote
             </h1>
@@ -42,7 +44,7 @@ export const ContactForm = () => {
             </div>
           </div>{" "}
           <form>
-            <div className="flex w-96 flex-col  gap-5 border bg-zinc-100 shadow-xl px-3 sm:w-full  mb-20  py-5 rounded-3xl  ">
+            <div className="flex w-96 flex-col  gap-5 border bg-zinc-100 shadow-xl sm:w-full  mb-20  py-5 rounded-3xl  ">
               <h1 className="px-5 text-xl font-semibold">
                 Step 1: Your Contact Details
               </h1>
@@ -50,8 +52,8 @@ export const ContactForm = () => {
                 {" "}
                 <div className="flex-col  flex gap-1">
                   {" "}
-                  <Label className=" text-md" htmlFor="name">
-                    Name:
+                  <Label className="required-field text-md" htmlFor="name">
+                    Name
                   </Label>
                   <Input
                     required
@@ -63,8 +65,8 @@ export const ContactForm = () => {
                 </div>
                 <div className="flex flex-col  gap-1   ">
                   {" "}
-                  <Label className="text-md" htmlFor="num">
-                    Mobile Number:
+                  <Label className="required-field  text-md" htmlFor="num">
+                    Mobile Number
                   </Label>
                   <Input
                     required
@@ -75,11 +77,10 @@ export const ContactForm = () => {
                   />
                 </div>
               </div>
-
-              <div className="flex flex-col  gap-2 px-5 ">
+              <div className="flex flex-col  gap-1 px-5 ">
                 {" "}
-                <Label className="text-md" htmlFor="email">
-                  Email:
+                <Label className="required-field  text-md" htmlFor="email">
+                  Email
                 </Label>
                 <Input
                   required
@@ -89,43 +90,42 @@ export const ContactForm = () => {
                   placeholder="Email"
                 />
               </div>
-
-              <div className=" border-[1px] w-full"></div>
-
+              <div className=" border-[1px] w-full"></div>{" "}
               <h1 className="px-5 text-xl font-semibold">
                 Step 2: Your Vehicle Information
               </h1>
-              <div className="flex flex-col gap-2 px-5 ">
-                {" "}
-                <Label className=" text-md" htmlFor="vmake">
-                  Vehicle Make:
-                </Label>
-                <Input
-                  required
-                  className="h-8 border-none"
-                  type="text"
-                  id="vmake"
-                  placeholder="e.g. Mercedes"
-                />
+              <div className="flex   sm:flex-row flex-col  gap-6 px-5">
+                <div className="flex-col  flex gap-1">
+                  {" "}
+                  <Label className="required-field  text-md" htmlFor="vmake">
+                    Vehicle Make
+                  </Label>
+                  <Input
+                    required
+                    className="h-8 sm:w-56 border-none"
+                    type="text"
+                    id="vmake"
+                    placeholder="e.g. Mercedes"
+                  />
+                </div>
+                <div className="flex-col  flex gap-1">
+                  {" "}
+                  <Label className="required-field  text-md" htmlFor="year">
+                    Year
+                  </Label>
+                  <Input
+                    required
+                    className="border-none sm:w-56  h-8"
+                    type="number"
+                    id="year"
+                    placeholder="e.g. 2023"
+                  />
+                </div>{" "}
               </div>
-
-              <div className="flex flex-col gap-2 px-5 ">
+              <div className="flex flex-col px-5 gap-1  ">
                 {" "}
-                <Label className="text-md" htmlFor="year">
-                  Year:
-                </Label>
-                <Input
-                  required
-                  className="border-none h-8"
-                  type="number"
-                  id="year"
-                  placeholder="e.g. 2023"
-                />
-              </div>
-              <div className="flex flex-col px-5 gap-2  ">
-                {" "}
-                <Label className="text-md" htmlFor="vmodel">
-                  Vehicle Model:
+                <Label className="required-field  text-md" htmlFor="vmodel">
+                  Vehicle Model
                 </Label>
                 <Input
                   required
@@ -136,12 +136,11 @@ export const ContactForm = () => {
                 />
               </div>
               <div className=" border-[1px] w-full"></div>
-
-              <h1 className="px-5 text-xl font-semibold">
+              <h1 className="px-5 required-field  text-xl font-semibold">
                 Step 3: Add Services
               </h1>
               <RadioGroup
-                className="px-5 flex flex-row flex-wrap gap-3"
+                className="px-5 sm:w-96 flex flex-row flex-wrap gap-3"
                 defaultValue="option-one"
               >
                 <div className="flex items-center space-x-1">
@@ -177,10 +176,10 @@ export const ContactForm = () => {
                   <Label htmlFor="option-two">Option Two</Label>
                 </div>
               </RadioGroup>
-              <div className="flex flex-col px-5 gap-2  ">
+              <div className="flex flex-col px-5 gap-1  ">
                 {" "}
                 <Label className="text-md" htmlFor="pkg">
-                  Packages:
+                  Packages
                 </Label>
                 <Textarea
                   required
@@ -189,10 +188,10 @@ export const ContactForm = () => {
                   placeholder="Packages"
                 />
               </div>
-              <div className="flex flex-col px-5 gap-2  ">
+              <div className="flex flex-col px-5 gap-1  ">
                 {" "}
                 <Label className="text-md" htmlFor="details">
-                  Any other details:
+                  Any other details
                 </Label>
                 <Textarea
                   required
