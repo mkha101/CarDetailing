@@ -55,7 +55,7 @@ export const ContentGraphic = () => {
           ></div>
         ))}
       </div>
-      <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-40">
+      <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-30">
         <div className=" flex sm:gap-10 gap-12 mt-10 px-4 flex-col justify-center items-center ">
           <div className="flex flex-col gap-2 items-center">
             {" "}
