@@ -17,11 +17,11 @@ export const ServicesOffered = () => {
             alt=""
             className="object-cover  w-full h-full  shadow-inner opacity-80 "
           />
-          <div className="absolute inset-0 flex flex-col justify-center items-center">
+          <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white  uppercase  tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Ceramic Coating
             </h1>
-            <p>Your text here</p>
+            <p className="text-sm text-center font-medium  "></p>
           </div>
         </div>
         <div className="relative sm:border-[8px] cursor-pointer border-black bg-cover bg-center bg-no-repeat">
@@ -30,11 +30,11 @@ export const ServicesOffered = () => {
             alt=""
             className="object-cover w-full h-full  shadow-inner opacity-80 "
           />
-          <div className="absolute inset-0 flex flex-col justify-center items-center">
+          <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
-              Ceramic Coating
+              Interior/Exterior Cleaning
             </h1>
-            <p>Your text here</p>
+            <p className="text-sm text-center font-medium  "></p>
           </div>
         </div>
         <div className="relative sm:border-[8px] cursor-pointer border-black bg-cover bg-center bg-no-repeat">
@@ -43,11 +43,11 @@ export const ServicesOffered = () => {
             alt=""
             className="object-cover  w-full h-full  shadow-inner opacity-80 "
           />
-          <div className="absolute inset-0 flex flex-col justify-center items-center">
+          <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
-              Ceramic Coating
+              Glass and Plastic Restoration
             </h1>
-            <p>Your text here</p>
+            <p className="text-sm text-center font-medium  "></p>
           </div>
         </div>
         <div className="relative sm:border-[8px] cursor-pointer border-black bg-cover bg-center bg-no-repeat">
@@ -56,11 +56,11 @@ export const ServicesOffered = () => {
             alt=""
             className="object-cover w-full h-full  shadow-inner opacity-80 "
           />
-          <div className="absolute inset-0 flex flex-col justify-center items-center">
+          <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
-              Ceramic Coating
+              Paint Correction
             </h1>
-            <p>Your text here</p>
+            <p className="text-sm text-center font-medium  "></p>
           </div>
         </div>
       </div>
