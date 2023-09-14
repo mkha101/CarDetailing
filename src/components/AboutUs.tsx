@@ -11,7 +11,7 @@ export const AboutUs = () => {
             alt=""
           />
 
-          <div className="flex max-sm:absolute m-10 sm:mt-0 sm:ml-20 w-80 sm:w-96 flex-col gap-4">
+          <div className="flex max-sm:absolute m-10  sm:mt-0 sm:ml-20 w-80 sm:w-96 flex-col gap-4">
             {" "}
             <h1 className="text-base uppercase font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
               About Us
