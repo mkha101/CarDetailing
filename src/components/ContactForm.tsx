@@ -144,36 +144,58 @@ export const ContactForm = () => {
                 defaultValue="option-one"
               >
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-one" id="option-one" />
-                  <Label htmlFor="option-one">Option One</Label>
+                  <RadioGroupItem value="interior" id="interior" />
+                  <Label htmlFor="interior">Interior Detail</Label>
                 </div>
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-two" id="option-two" />
-                  <Label htmlFor="option-two">Option Two</Label>
+                  <RadioGroupItem value="exterior" id="exterior" />
+                  <Label htmlFor="exterior">Exterior Detail</Label>
                 </div>
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-two" id="option-two" />
-                  <Label htmlFor="option-two">Option Two</Label>
+                  <RadioGroupItem
+                    value="paint-protection"
+                    id="paint-protection"
+                  />
+                  <Label htmlFor="paint-protection">Paint Protection</Label>
                 </div>
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-two" id="option-two" />
-                  <Label htmlFor="option-two">Option Two</Label>
+                  <RadioGroupItem
+                    value="plastic-restoration"
+                    id="plastic-restoration"
+                  />
+                  <Label htmlFor="plastic-restoration">
+                    Plastic Restoration
+                  </Label>
                 </div>
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-two" id="option-two" />
-                  <Label htmlFor="option-two">Option Two</Label>
+                  <RadioGroupItem
+                    value="ceramic-coating"
+                    id="ceramic-coating"
+                  />
+                  <Label htmlFor="ceramic-coating">Ceramic Coating</Label>
                 </div>
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-two" id="option-two" />
-                  <Label htmlFor="option-two">Option Two</Label>
+                  <RadioGroupItem
+                    value="glass-restoration"
+                    id="glass-restoration"
+                  />
+                  <Label htmlFor="glass-restoration">Glass Restoration</Label>
                 </div>
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-two" id="option-two" />
-                  <Label htmlFor="option-two">Option Two</Label>
+                  <RadioGroupItem
+                    value="mobile-detailing"
+                    id="mobile-detailing"
+                  />
+                  <Label htmlFor="mobile-detailing">Mobile Detailing</Label>
                 </div>
                 <div className="flex items-center space-x-1">
-                  <RadioGroupItem value="option-two" id="option-two" />
-                  <Label htmlFor="option-two">Option Two</Label>
+                  <RadioGroupItem
+                    value="headlight-restoration"
+                    id="headlight-restoration"
+                  />
+                  <Label htmlFor="headlight-restoration">
+                    Headlight Restoration
+                  </Label>
                 </div>
               </RadioGroup>
               <div className="flex flex-col px-5 gap-1  ">

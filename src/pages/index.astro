@@ -7,6 +7,7 @@ import Layout from "../layouts/Layout.astro";
 import "@/styles/globals.css";
 import { Testimonials } from "@/components/Testimonials";
 import { ContactForm } from "@/components/ContactForm";
+import { FrequentlyAskedQ } from "@/components/FrequentlyAskedQ";
 ---
 
 <Layout positionprop="fixed" title="Freelance Template">
@@ -15,6 +16,7 @@ import { ContactForm } from "@/components/ContactForm";
     <ServicesOffered />
     <AboutUs />
     <Testimonials />
-    <ContactForm />
+    <ContactForm client:load />
+    <FrequentlyAskedQ client:load />
   </main>
 </Layout>
