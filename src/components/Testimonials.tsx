@@ -56,8 +56,8 @@ export const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="flex sm:hidden  border-white  flex-row px-32 gap-2">
-          <p className="font-medium">Scrollable</p>
+        <div className="flex sm:hidden  border-white  flex-row px-28 gap-2">
+          <p className="font-semibold text-base uppercase">Scrollable</p>
           <MoveRight />
         </div>
       </div>
