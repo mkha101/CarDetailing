@@ -4,7 +4,7 @@ export const ServicesOffered = () => {
   return (
     <div className="bg-black text-black">
       <div className="text-white uppercase flex flex-col gap-3  py-6 px-5 items-start border-[8px] sm:border-[16px] border-black">
-        <h1 className="text-base font-semibold underline decorati-2-red-700 decoration-2 underline-offset-8">
+        <h1 className="text-base font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
           Our Services
         </h1>
         <p className="font-bold text-2xl">Top-Tier Detailing Services</p>
