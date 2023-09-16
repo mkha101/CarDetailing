@@ -15,8 +15,12 @@ import {
 
 export const Testimonials = () => {
   return (
-    <div className=" bg-black max-h-[70vh] relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
-      <img className="opacity-50  block sm:hidden" src="/aboutme.jpg" alt="" />
+    <div className=" bg-black  relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
+      <img
+        className="opacity-50 max-h-[70vh]  block sm:hidden"
+        src="/aboutme.jpg"
+        alt=""
+      />
 
       <div className="absolute">
         {" "}
@@ -105,7 +109,7 @@ export const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex sm:hidden left-32  absolute bottom-1   border-white   flex-row gap-2">
+          <div className="flex sm:hidden left-32  absolute bottom-7   border-white   flex-row gap-2">
             <ArrowLeftCircle />
 
             <p className="font-semibold text-base uppercase">Scrollable</p>
