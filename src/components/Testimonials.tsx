@@ -8,7 +8,9 @@ import {
   Scroll,
   ScrollIcon,
   ScrollTextIcon,
+  Stars,
   ToggleRight,
+  Star,
 } from "lucide-react";
 
 export const Testimonials = () => {
@@ -26,35 +28,72 @@ export const Testimonials = () => {
         {" "}
         <div className="flex gap-10 flex-row  ">
           {" "}
-          <div className="border relative px-2 flex justify-center items-center text-black flex-col    bg-zinc-100 shadow-xl   w-[22rem] sm:w-[20rem] h-72 rounded-xl">
-            <img
-              className="absolute top-4 left-3 w-10"
-              src="/google.png"
-              alt=""
-            />
-            <h1>Reviewer</h1>
-            <p>Review Here</p>
-          </div>
-          <div className="border relative flex justify-center items-center    sm:text-white text-black flex-col   px-2 bg-zinc-100 shadow-xl  w-[22rem] sm:w-[20rem]  h-72 rounded-xl">
-            <img
-              className="absolute top-4  left-3 w-10"
-              src="/google.png"
-              alt=""
-            />
-            <div className="flex text-black absolute  justify-center items-center flex-col">
-              <h1>Reviewer</h1>
-              <p>Review Here</p>
+          <div className="border relative px-2 flex justify-center items-start text-black flex-col    border-none bg-zinc-400 shadow-xl   w-[22rem] sm:w-[20rem] h-48 rounded-xl">
+            <div className="absolute top-10 flex left-3">
+              <Star className=" " fill="black" />{" "}
+              <Star className="" fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+            </div>
+            <div className="absolute top-4 left-3 flex gap-2">
+              {" "}
+              <p className=" text-sm font-medium  "> Posted by </p>
+              <span className="text-sm font-semibold text-red-700">Google</span>
+            </div>
+
+            <div className="flex flex-col mt-1  px-1">
+              {" "}
+              <p className="font-medium">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                illo iusto enim, ipsa,
+              </p>
             </div>
           </div>
-          <div className="border  flex justify-center items-center    sm:text-white text-black flex-col  relative px-2 bg-zinc-100 shadow-xl w-[22rem] sm:w-[20rem]  h-72 rounded-xl">
-            <img
-              className="top-4 absolute left-3 w-10"
-              src="/google.png"
-              alt=""
-            />
-            <div className="flex text-black absolute  justify-center items-center flex-col">
-              <h1>Reviewer</h1>
-              <p>Review Here</p>
+          <div className="border relative flex justify-center items-center     text-black flex-col   px-2 border-none bg-zinc-400 shadow-xl  w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
+            <div className="absolute top-10 flex left-3">
+              <Star className=" " fill="black" />{" "}
+              <Star className="" fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+            </div>
+            <div className="absolute top-4 left-3 flex gap-2">
+              {" "}
+              <p className=" text-sm font-medium  "> Posted by </p>
+              <span className="text-sm font-semibold text-red-700">Google</span>
+            </div>
+
+            <div className="flex flex-col mt-1  px-1">
+              {" "}
+              <p className="font-medium">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                illo iusto enim, ipsa,
+              </p>
+            </div>
+          </div>
+          <div className="border  flex justify-center items-center     text-black flex-col  relative px-2 border-none bg-zinc-400 shadow-xl w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
+            <div className="absolute top-10 flex left-3">
+              <Star className=" " fill="black" />{" "}
+              <Star className="" fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+              <Star className=" " fill="black" />{" "}
+            </div>
+            <div className="absolute top-4 left-3 flex gap-2">
+              {" "}
+              <p className=" text-sm font-medium  "> Posted by </p>
+              <span className="text-sm font-semibold  text-red-700">
+                Google
+              </span>
+            </div>
+
+            <div className="flex flex-col mt-1  px-1">
+              {" "}
+              <p className="font-medium ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                illo iusto enim, ipsa,
+              </p>
             </div>
           </div>
         </div>
