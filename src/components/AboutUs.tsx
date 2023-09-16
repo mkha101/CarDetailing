@@ -2,16 +2,16 @@ import { Button } from "./ui/button";
 
 export const AboutUs = () => {
   return (
-    <div className=" bg-black min-h-[60vh] flex flex-col sm:flex-row justify-between items-center    text-white">
-      <div className="flex flex-col sm:py-10 sm:w-3/6  items-center justify-center">
-        <div className="flex max-sm:relative sm:mt-0 sm:ml-20  w-full h-full sm:w-96 flex-col gap-4">
+    <div className=" bg-black max-h-[80vh] overflow-hidden flex flex-col sm:flex-row justify-between items-center    text-white">
+      <div className="flex flex-col sm:flex-row  bg-black   items-center justify-center">
+        <div className="flex max-sm:relative       flex-col gap-4">
           <img
             className="opacity-30 block sm:hidden"
             src="/backdrop.webp"
             alt=""
           />
 
-          <div className="flex max-sm:absolute py-10 px-7 sm:mt-0  sm:ml-20 w-auto sm:w-96 flex-col gap-4">
+          <div className="flex max-sm:absolute py-10 px-7 sm:px-5 max-sm:mx-0  max-lg:mx-24 xl:mx-24 md:mx-10   flex-col gap-4">
             {" "}
             <h1 className="text-base uppercase font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
               About Us
@@ -31,18 +31,13 @@ export const AboutUs = () => {
             </Button>
           </div>
         </div>
-      </div>
-      <div className="sm:mt-0  sm:w-2/4">
-        <img className="  object-cover" src="/vette.jpeg" alt="" />
-      </div>
-      <div className="sm:hidden grid grid-cols-2 grid-rows-1">
-        <div>
+        <div className="sm:mt-0   bg-white ">
           {" "}
-          <img className="" src="/vette.jpeg" alt="" />
-        </div>
-        <div>
-          {" "}
-          <img className="" src="/vette.jpeg" alt="" />
+          <img
+            className="h-full w-full hidden sm:block object-cover"
+            src="/aboutme.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
