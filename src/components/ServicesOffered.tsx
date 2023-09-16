@@ -15,7 +15,7 @@ export const ServicesOffered = () => {
           <img
             src="/rims.jpeg"
             alt=""
-            className="object-cover   max-sm:rounded-lg max-sm:border border-black  w-full h-full  shadow-inner opacity-80 "
+            className="object-cover   max-sm:rounded-lg max-sm:border-[1px] border-zinc-700  w-full h-full  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white  uppercase  tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
@@ -28,7 +28,7 @@ export const ServicesOffered = () => {
           <img
             src="/matte.webp"
             alt=""
-            className="object-cover w-full h-full max-sm:border border-black  max-sm:rounded-lg  shadow-inner opacity-80 "
+            className="object-cover w-full h-full max-sm:border-[1px] border-zinc-700  max-sm:rounded-lg  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
@@ -41,7 +41,7 @@ export const ServicesOffered = () => {
           <img
             src="/rim.jpeg"
             alt=""
-            className="object-cover  w-full h-full max-sm:border border-black max-sm:rounded-lg  shadow-inner opacity-80 "
+            className="object-cover  w-full h-full max-sm:border-[1px] border-zinc-700 max-sm:rounded-lg  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
@@ -54,7 +54,7 @@ export const ServicesOffered = () => {
           <img
             src="/porsche.jpeg"
             alt=""
-            className="object-cover w-full h-full max-sm:rounded-lg max-sm:border border-black  shadow-inner opacity-80 "
+            className="object-cover w-full h-full max-sm:rounded-lg max-sm:border-[1px] border-zinc-700  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
             <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
