@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
+  ArrowLeftCircle,
+  ArrowRightCircle,
   ChevronRight,
   MoveRight,
   Scroll,
@@ -56,9 +58,11 @@ export const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="flex sm:hidden  border-white  flex-row px-28 gap-2">
+        <div className="flex sm:hidden ml-[5.5rem]   border-white   flex-row gap-2">
+          <ArrowLeftCircle />
+
           <p className="font-semibold text-base uppercase">Scrollable</p>
-          <MoveRight />
+          <ArrowRightCircle />
         </div>
       </div>
     </div>
