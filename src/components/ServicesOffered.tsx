@@ -4,7 +4,7 @@ export const ServicesOffered = () => {
   return (
     <div className="bg-black text-black">
       <div className="text-white uppercase flex flex-col gap-3  py-6 px-5 items-start border-[8px] sm:border-[16px] border-black">
-        <h1 className="text-base font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
+        <h1 className="text-base font-semibold underline decorati-2-red-700 decoration-2 underline-offset-8">
           Our Services
         </h1>
         <p className="font-bold text-2xl">Top-Tier Detailing Services</p>
@@ -15,10 +15,10 @@ export const ServicesOffered = () => {
           <img
             src="/rims.jpeg"
             alt=""
-            className="object-cover   max-sm:rounded-lg max-sm:border-[1px] border-zinc-700  w-full h-full  shadow-inner opacity-80 "
+            className="object-cover   max-sm:rounded-lg max-sm:border border-black  w-full h-full  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
-            <h1 className="text-white  uppercase  tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white  uppercase  tracking-tighter text-2xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Ceramic Coating
             </h1>
             <p className="text-sm text-center font-medium  "></p>
@@ -28,10 +28,10 @@ export const ServicesOffered = () => {
           <img
             src="/matte.webp"
             alt=""
-            className="object-cover w-full h-full max-sm:border-[1px] border-zinc-700  max-sm:rounded-lg  shadow-inner opacity-80 "
+            className="object-cover w-full h-full max-sm:border border-black  max-sm:rounded-lg  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
-            <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white uppercase tracking-tighter text-2xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Interior/Exterior Cleaning
             </h1>
             <p className="text-sm text-center font-medium  "></p>
@@ -41,10 +41,10 @@ export const ServicesOffered = () => {
           <img
             src="/rim.jpeg"
             alt=""
-            className="object-cover  w-full h-full max-sm:border-[1px] border-zinc-700 max-sm:rounded-lg  shadow-inner opacity-80 "
+            className="object-cover  w-full h-full max-sm:border border-black max-sm:rounded-lg  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
-            <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white uppercase tracking-tighter text-2xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Glass and Plastic Restoration
             </h1>
             <p className="text-sm text-center font-medium  "></p>
@@ -54,10 +54,10 @@ export const ServicesOffered = () => {
           <img
             src="/porsche.jpeg"
             alt=""
-            className="object-cover w-full h-full max-sm:rounded-lg max-sm:border-[1px] border-zinc-700  shadow-inner opacity-80 "
+            className="object-cover w-full h-full max-sm:rounded-lg max-sm:border border-black  shadow-inner opacity-80 "
           />
           <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
-            <h1 className="text-white uppercase tracking-tighter text-3xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
+            <h1 className="text-white uppercase tracking-tighter text-2xl drop-shadow-2xl text-center font-bold md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-7xl">
               Paint Correction
             </h1>
             <p className="text-sm text-center font-medium  "></p>
