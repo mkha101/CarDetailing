@@ -15,7 +15,7 @@ import {
 
 export const ContactForm = () => {
   return (
-    <div className="w-full sm:px-44 min-h-screen bg-white mt-10 flex flex-col   gap-10 max-w-screen ">
+    <div className="w-full sm:px-44 min-h-screen bg-white sm:mt-10 flex flex-col   gap-10 max-w-screen ">
       <div className="hidden sm:flex sm:items-center uppercase px-3 ml-9 justify-center gap-3 flex-col ">
         <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
           Get a Quote
