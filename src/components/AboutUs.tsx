@@ -6,7 +6,7 @@ export const AboutUs = () => {
       <div className="flex flex-col sm:flex-row  bg-black   items-center justify-center">
         <div className="flex max-sm:relative       flex-col gap-4">
           <img
-            className="opacity-30 block sm:hidden"
+            className="opacity-50 block sm:hidden"
             src="/backdrop.webp"
             alt=""
           />
