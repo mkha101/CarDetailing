@@ -8,7 +8,7 @@ import {
 
 export const FrequentlyAskedQ = () => {
   return (
-    <div className="px-9 pb-12">
+    <div className="px-7  p-12">
       <h1 className=" text-sm  py-3  font-semibold uppercase      text-black underline decoration-red-700 decoration-2 underline-offset-8">
         FAQ
       </h1>

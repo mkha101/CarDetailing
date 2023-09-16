@@ -32,7 +32,7 @@ export const ContactForm = () => {
         <div className="w-1/2  bg-white hidden sm:block "></div>
         <div className="flex sm:w-1/2 w-full  flex-col items-center gap-10 ">
           {" "}
-          <div className="flex sm:hidden sm:items-center uppercase px-3 ml-6 justify-center gap-3 flex-col ">
+          <div className="flex sm:hidden sm:items-center uppercase px-3 ml-4 justify-center gap-3 flex-col ">
             <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
               Get a Quote
             </h1>
