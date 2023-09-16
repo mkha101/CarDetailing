@@ -14,7 +14,7 @@ import {
 export const Testimonials = () => {
   return (
     <div className=" bg-zinc-900   flex flex-col items-center       sm:text-white text-white">
-      <div className="mt-10  sm:items-center  sm:px-3 px-3  sm:ml-0 flex flex-col sm:gap-6 gap-3">
+      <div className="mt-10  sm:items-center  sm:px-3 px-8  sm:ml-0 flex flex-col sm:gap-6 gap-3">
         <h1 className="text-base sm:text-xl  font-semibold uppercase     sm:text-white text-white underline decoration-red-700 decoration-2 underline-offset-8">
           Reviews
         </h1>
@@ -22,7 +22,7 @@ export const Testimonials = () => {
           What our customers think
         </p>
       </div>
-      <div className="sm:grid grid-rows-1 max-sm:overflow-x-auto max-sm:max-w-[24rem]  grid-cols-1 flex pt-10 py-20 sm:items-center sm:justify-center flex-wrap px-6   gap-10 flex-col sm:flex-row">
+      <div className="sm:grid grid-rows-1 max-sm:overflow-x-auto max-sm:max-w-[25rem]  grid-cols-1 flex pt-10 py-20 sm:items-center sm:justify-center flex-wrap px-6   gap-10 flex-col sm:flex-row">
         {" "}
         <div className="flex gap-10 flex-row  ">
           {" "}
