@@ -22,7 +22,7 @@ export const Testimonials = () => {
       </div>
       <div className="sm:grid grid-rows-1 max-sm:overflow-x-auto max-sm:max-w-[24rem] grid-cols-3 flex pt-10 py-20 sm:items-center sm:justify-center flex-wrap px-6   gap-10 flex-col sm:flex-row">
         {" "}
-        <div className="max-sm:flex flex-row ">
+        <div className="max-sm:flex gap-10 flex-row ">
           {" "}
           <div className="border relative px-2 flex justify-center items-center text-black flex-col    bg-zinc-100 shadow-xl   w-[22rem] sm:w-[20rem] h-72 rounded-xl">
             <img
