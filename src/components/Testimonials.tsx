@@ -15,7 +15,7 @@ import {
 
 export const Testimonials = () => {
   return (
-    <div className=" bg-black relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
+    <div className=" bg-black max-h-[70vh] relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
       <img className="opacity-50  block sm:hidden" src="/aboutme.jpg" alt="" />
 
       <div className="absolute">
@@ -28,11 +28,11 @@ export const Testimonials = () => {
             What our customers think
           </p>
         </div>
-        <div className="sm:grid grid-rows-1  max-sm:overflow-x-auto max-sm:max-w-[25rem]  grid-cols-1 flex pt-10 py-20 sm:items-center sm:justify-center flex-wrap px-6   gap-10 flex-col sm:flex-row">
+        <div className="sm:grid grid-rows-1  max-sm:overflow-x-auto max-sm:max-w-[25rem]  grid-cols-1 flex pt-10 py-20 sm:items-center sm:justify-center flex-wrap px-5   gap-10 flex-col sm:flex-row">
           {" "}
           <div className="flex gap-10 flex-row  ">
             {" "}
-            <div className="border relative px-2 flex justify-center items-start text-black flex-col    border-none bg-zinc-400 shadow-xl   w-[22rem] sm:w-[20rem] h-48 rounded-xl">
+            <div className="border relative px-2 flex justify-center items-start text-black flex-col    border-none bg-zinc-400 shadow-xl   w-[23rem] sm:w-[20rem] h-48 rounded-xl">
               <div className="absolute top-10 flex left-3">
                 <Star className=" " fill="black" />{" "}
                 <Star className="" fill="black" />{" "}
@@ -105,7 +105,7 @@ export const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex sm:hidden ml-[5.5rem]   border-white   flex-row gap-2">
+          <div className="flex sm:hidden ml-[6rem]   border-white   flex-row gap-2">
             <ArrowLeftCircle />
 
             <p className="font-semibold text-base uppercase">Scrollable</p>

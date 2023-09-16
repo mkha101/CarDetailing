@@ -84,7 +84,7 @@ export const MobileNavList = () => {
         </button>
       </nav>
       <div
-        className={`overflow-hidden transition-all ease-in-out duration-500 ${
+        className={`overflow-hidden transition-all ease-in-out duration-700 ${
           isOpen ? "max-h-screen" : "max-h-0"
         }`}
       >
