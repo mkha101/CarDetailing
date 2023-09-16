@@ -11,12 +11,12 @@ import {
 
 export const Testimonials = () => {
   return (
-    <div className=" bg-white sm:bg-black  flex flex-col items-center       sm:text-black text-black">
+    <div className=" bg-black sm:bg-white  flex flex-col items-center       sm:text-white text-white">
       <div className="mt-10 w-96 sm:items-center  sm:px-3 px-3  sm:ml-0 flex flex-col sm:gap-6 gap-3">
-        <h1 className="text-base sm:text-xl  font-semibold uppercase     sm:text-black text-black underline decoration-red-700 decoration-2 underline-offset-8">
+        <h1 className="text-base sm:text-xl  font-semibold uppercase     sm:text-white text-white underline decoration-red-700 decoration-2 underline-offset-8">
           Reviews
         </h1>
-        <p className="text-2xl sm:text-4xl  font-bold sm:text-center  uppercase    sm:text-black text-black  ">
+        <p className="text-2xl sm:text-4xl  font-bold sm:text-center  uppercase    sm:text-white text-white  ">
           What our customers think
         </p>
       </div>
@@ -33,7 +33,7 @@ export const Testimonials = () => {
             <h1>Reviewer</h1>
             <p>Review Here</p>
           </div>
-          <div className="border relative flex justify-center items-center    sm:text-black text-black flex-col   px-2 bg-zinc-100 shadow-xl  w-[22rem] sm:w-[20rem]  h-72 rounded-xl">
+          <div className="border relative flex justify-center items-center    sm:text-white text-black flex-col   px-2 bg-zinc-100 shadow-xl  w-[22rem] sm:w-[20rem]  h-72 rounded-xl">
             <img
               className="absolute top-4  left-3 w-10"
               src="/google.png"
@@ -44,7 +44,7 @@ export const Testimonials = () => {
               <p>Review Here</p>
             </div>
           </div>
-          <div className="border  flex justify-center items-center    sm:text-black text-black flex-col  relative px-2 bg-zinc-100 shadow-xl w-[22rem] sm:w-[20rem]  h-72 rounded-xl">
+          <div className="border  flex justify-center items-center    sm:text-white text-black flex-col  relative px-2 bg-zinc-100 shadow-xl w-[22rem] sm:w-[20rem]  h-72 rounded-xl">
             <img
               className="top-4 absolute left-3 w-10"
               src="/google.png"
@@ -56,7 +56,7 @@ export const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="flex sm:hidden flex-row px-32 gap-2">
+        <div className="flex sm:hidden  border-white  flex-row px-32 gap-2">
           <p className="font-medium">Scrollable</p>
           <MoveRight />
         </div>

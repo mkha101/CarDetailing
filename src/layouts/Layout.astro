@@ -1,5 +1,6 @@
 ---
 import { Footer } from "@/components/Footer";
+import { FrequentlyAskedQ } from "@/components/FrequentlyAskedQ";
 import { Header } from "@/components/Header.tsx";
 import "@fontsource-variable/inter";
 
@@ -24,6 +25,8 @@ const { title, positionprop } = Astro.props as Props;
   <body class="">
     <Header client:load positionprop={positionprop} />
     <slot />
+    <FrequentlyAskedQ client:load />
+
     <Footer />
   </body>
 </html>

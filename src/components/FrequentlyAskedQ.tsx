@@ -9,14 +9,18 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 export const FrequentlyAskedQ = () => {
   return (
-    <div className="px-7  p-12">
-      <h1 className=" text-sm  py-3  font-semibold uppercase      text-black underline decoration-red-700 decoration-2 underline-offset-8">
+    <div className="px-7 bg-zinc-900  p-12">
+      <h1 className=" text-sm  py-3  font-semibold uppercase      text-white underline decoration-red-700 decoration-2 underline-offset-8">
         FAQ
       </h1>
-      <h1 className=" text-2xl  pb-3  font-bold uppercase  leading-loose    text-black underline decoration-red-700 decoration-2 underline-offset-8">
+      <h1 className=" text-2xl  pb-3  font-bold uppercase  leading-loose    text-white underline decoration-red-700 decoration-2 underline-offset-8">
         Frequently Asked <br /> Questions
       </h1>
-      <Accordion className="flex flex-col gap-3" type="single" collapsible>
+      <Accordion
+        className="flex flex-col text-white gap-3"
+        type="single"
+        collapsible
+      >
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-left">
             What is car detailing, and how is it different from car washing?
