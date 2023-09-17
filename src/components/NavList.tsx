@@ -6,34 +6,29 @@ import "../styles/globals.css";
 interface NavListProps {
   positionprop: string;
 
-  setServices: (value: boolean) => void; // Assuming setServices is a function that takes a boolean argument
+  setServices: (value: boolean) => void;
 }
 
 export const NavList: React.FC<NavListProps> = ({ setServices }) => {
   return (
-    <nav
-      className={`hidden   lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between`}
-    >
+    <nav className="hidden   lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between">
       <a href="/">
         <img className="w-36 h-36  " src="/logo1.png" alt="" />
       </a>
-
-      <ul
-        className={`flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16`}
-      >
-        <li className="  hover:text-gray-500 font-extralight">
+      <ul className="flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16">
+        <li className="  hover:text-gray-500 font-normal">
           <a href="/">Home</a>
         </li>{" "}
-        <li className="  hover:text-gray-500 font-extralight">
+        <li className="  hover:text-gray-500 font-normal">
           <a href="/portfolio">Portfolio</a>
         </li>{" "}
         <button
           onMouseEnter={() => setServices(true)}
-          className="cursor-pointer tracking-[0.2em]   hover:text-gray-500 font-extralight"
+          className="cursor-pointer tracking-[0.2em]   hover:text-gray-500 font-normal"
         >
           Services
         </button>
-        <li className="  hover:text-gray-500 font-extralight">
+        <li className="  hover:text-gray-500 font-normal">
           <a href="/contact">Contact</a>
         </li>
       </ul>
@@ -61,26 +56,18 @@ export const MobileNavList = () => {
           <img className="w-24 pt-3" src="./logo1.png" alt="" />
         </a>
         <button
-          className="flex flex-col h-12 w-12 justify-center items-center group"
+          className="flex flex-col h-12 w-12 justify-center items-center "
           onClick={toggleMenu}
         >
           <div
             className={`${genericHamburgerLine} ${
-              isOpen
-                ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
-                : " group-hover:opacity-100"
+              isOpen && "rotate-45 translate-y-3 opacity-100 "
             }`}
           />
+          <div className={`${genericHamburgerLine} ${isOpen && "opacity-0"}`} />
           <div
             className={`${genericHamburgerLine} ${
-              isOpen ? "opacity-0" : "group-hover:opacity-100"
-            }`}
-          />
-          <div
-            className={`${genericHamburgerLine} ${
-              isOpen
-                ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
-                : " group-hover:opacity-100"
+              isOpen && "-rotate-45 -translate-y-3 "
             }`}
           />
         </button>
@@ -91,20 +78,20 @@ export const MobileNavList = () => {
         }`}
       >
         {isOpen && (
-          <nav className="min-h-[87vh] flex justify-center items-center ">
+          <nav className="min-h-[37vh] bg-black  flex justify-center items-center ">
             <ul
               className={`flex flex-col justify-center items-center text-white tracking-[0.2em] text-base text-opacity-200 gap-8`}
             >
-              <li className="hover:text-gray-500 font-extralight">
+              <li className="hover:text-gray-500 font-normal">
                 <a href="/">Home</a>
               </li>
-              <li className="hover:text-gray-500 font-extralight">
+              <li className="hover:text-gray-500 font-normal">
                 <a href="/portfolio">Portfolio</a>
               </li>
-              <li className="hover:text-gray-500 font-extralight">
+              <li className="hover:text-gray-500 font-normal">
                 <a href="/contact">Contact</a>
               </li>
-              <li className="hover:text-gray-500 font-extralight">
+              <li className="hover:text-gray-500 font-normal">
                 <a href="/Services">Services</a>
               </li>
             </ul>
