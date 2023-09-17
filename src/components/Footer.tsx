@@ -14,11 +14,19 @@ export const Footer = () => {
         <h1 className="text-base uppercase underline decoration-red-700 decoration-2 underline-offset-8 ">
           Pages
         </h1>
-        <ul className="flex text-sm flex-col justify-center items-center gap-3">
-          <li className="cursor-pointer  hover:text-red-700">Home</li>
-          <li className="cursor-pointer hover:text-red-700">Portfolio</li>
-          <li className="cursor-pointer hover:text-red-700">Services</li>
-          <li className="cursor-pointer hover:text-red-700">Contact</li>
+        <ul className="flex text-sm uppercase flex-col justify-center items-center gap-3">
+          <li className="cursor-pointer  hover:text-red-700">
+            <a href="/">Home</a>
+          </li>{" "}
+          <li className="cursor-pointer  hover:text-red-700">
+            <a href="/services">Services</a>
+          </li>
+          <li className="cursor-pointer  hover:text-red-700">
+            <a href="/portfolio">Portfolio</a>
+          </li>
+          <li className="cursor-pointer  hover:text-red-700">
+            <a href="/contact">Contact</a>
+          </li>
         </ul>
       </div>{" "}
       <div className="flex uppercase flex-col justify-center items-center gap-3">
