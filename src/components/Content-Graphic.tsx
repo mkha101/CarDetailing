@@ -64,7 +64,7 @@ export const ContentGraphic = () => {
             <p className="text-xs drop-shadow-2xl uppercase  tracking-widest  text-white font-medium">
               Premium Auto Detailing
             </p>
-            <h1 className="text-white drop-shadow-2xl leading-tight uppercase  tracking-normal text-3xl text-center font-medium xl:text-7xl lg:text-5xl">
+            <h1 className="text-white drop-shadow-2xl leading-tight uppercase  tracking-wide text-3xl text-center font-medium xl:text-7xl lg:text-5xl">
               Fall in <span className="text-red-700">love</span> with your{" "}
               <br />
               car all over again
@@ -80,8 +80,8 @@ export const ContentGraphic = () => {
                 key={slideIndex}
                 onClick={() => setCurrentIndex(slideIndex)}
                 className={`${
-                  currentIndex === slideIndex ? "bg-gray-500" : "bg-white"
-                } p-[5px] cursor-pointer hover:bg-gray-500 transition ease-in-out w-1 h-1 rounded-full`}
+                  currentIndex === slideIndex ? "bg-white" : "bg-gray-500"
+                } p-[5px] cursor-pointer hover:bg-white transition ease-in-out w-1 h-1 rounded-full`}
               ></div>
             ))}
           </div>
