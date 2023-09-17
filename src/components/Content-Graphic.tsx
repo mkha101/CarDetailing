@@ -35,7 +35,7 @@ export const ContentGraphic = () => {
         width: "100%",
         overflow: "hidden",
       }}
-      className="sm:min-h-screen min-h-[83vh] z-0 relative"
+      className="sm:min-h-screen min-h-[82vh] z-0 relative"
     >
       <div
         style={{
@@ -47,7 +47,7 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
-            className="bg-center sm:min-h-screen min-h-[83vh]"
+            className="bg-center sm:min-h-screen min-h-[82vh]"
             key={slideIndex}
             style={{
               flex: `0 0 ${slideWidth}%`,
@@ -58,7 +58,7 @@ export const ContentGraphic = () => {
         ))}
       </div>
       <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-20">
-        <div className=" flex  sm:gap-10 gap-12 sm:mt-10 sm:px-4 px-3  flex-col justify-center items-center ">
+        <div className=" flex  sm:gap-10 gap-16 sm:mt-10 sm:px-4 px-3  flex-col justify-center items-center ">
           <div className="flex flex-col gap-1  items-center">
             {" "}
             <p className="text-sm drop-shadow-2xl uppercase   text-white font-medium">
@@ -71,7 +71,7 @@ export const ContentGraphic = () => {
             </h1>
           </div>
 
-          <Button className="bg-transparent drop-shadow-2xl uppercase max-sm:absolute max-sm:bottom-36   font-medium text-sm hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
+          <Button className="bg-transparent drop-shadow-2xl uppercase    font-medium text-sm hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
             Learn More
           </Button>
           <div className="flex flex-row absolute justify-centers bottom-12 gap-4">
