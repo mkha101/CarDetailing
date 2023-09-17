@@ -4,6 +4,8 @@ import { X, Menu } from "lucide-react";
 import "../styles/globals.css";
 
 interface NavListProps {
+  positionprop: string;
+
   setServices: (value: boolean) => void; // Assuming setServices is a function that takes a boolean argument
 }
 
@@ -54,7 +56,7 @@ export const MobileNavList = () => {
   return (
     <div>
       {" "}
-      <nav className="lg:hidden flex  flex-row items-center px-3 max-h-[11vh]  justify-between">
+      <nav className="lg:hidden flex   flex-row items-center px-3 max-h-[11vh]  justify-between">
         <a href="/">
           <img className="w-24 pt-3" src="./logo1.png" alt="" />
         </a>
@@ -84,7 +86,7 @@ export const MobileNavList = () => {
         </button>
       </nav>
       <div
-        className={`overflow-hidden transition-all ease-in-out duration-700 ${
+        className={`overflow-hidden transition-all ease-in-out duration-500 ${
           isOpen ? "max-h-screen" : "max-h-0"
         }`}
       >

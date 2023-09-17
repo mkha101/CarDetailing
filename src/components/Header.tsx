@@ -10,21 +10,14 @@ interface Props {
 }
 
 export const Header = (props: Props) => {
-  const { positionprop } = props;
-  const [isOpen, setIsOpen] = useState(false);
   const [services, setServices] = useState(false);
-
-  const toggleNavbar = () => {
-    console.log("toggleNavbar");
-    setIsOpen(!isOpen);
-  };
 
   return (
     <header
-      className={` ${positionprop}   w-full bg-black z-10  max-w-screen `}
+      className={` ${props.positionprop}  w-full bg-black z-10  max-w-screen `}
     >
       <Container>
-        <NavList setServices={setServices} />
+        <NavList setServices={setServices} positionprop={"fixed"} />
         <MobileNavList />
       </Container>{" "}
       {services && (

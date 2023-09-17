@@ -36,7 +36,7 @@ export const Testimonials = () => {
           {" "}
           <div className="flex gap-10 flex-row  ">
             {" "}
-            <div className="border relative px-2 flex justify-center items-start text-black flex-col    border-none bg-zinc-400 shadow-xl   w-[23rem] sm:w-[20rem] h-48 rounded-xl">
+            <div className="border relative px-2 flex justify-center items-start text-black flex-col    border-none bg-zinc-100 shadow-xl   w-[23rem] sm:w-[20rem] h-48 rounded-xl">
               <div className="absolute top-10 flex left-3">
                 <Star className=" " fill="black" />{" "}
                 <Star className="" fill="black" />{" "}
@@ -60,7 +60,7 @@ export const Testimonials = () => {
                 </p>
               </div>
             </div>
-            <div className="border relative flex justify-center items-center     text-black flex-col   px-2 border-none bg-zinc-400 shadow-xl  w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
+            <div className="border relative flex justify-center items-center     text-black flex-col   px-2 border-none bg-zinc-100 shadow-xl  w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
               <div className="absolute top-10 flex left-3">
                 <Star className=" " fill="black" />{" "}
                 <Star className="" fill="black" />{" "}
@@ -84,7 +84,7 @@ export const Testimonials = () => {
                 </p>
               </div>
             </div>
-            <div className="border  flex justify-center items-center     text-black flex-col  relative px-2 border-none bg-zinc-400 shadow-xl w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
+            <div className="border  flex justify-center items-center     text-black flex-col  relative px-2 border-none bg-zinc-100 shadow-xl w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
               <div className="absolute top-10 flex left-3">
                 <Star className=" " fill="black" />{" "}
                 <Star className="" fill="black" />{" "}
