@@ -35,7 +35,7 @@ export const ContentGraphic = () => {
         width: "100%",
         overflow: "hidden",
       }}
-      className="sm:min-h-screen min-h-[90vh] z-0 relative"
+      className="sm:min-h-screen min-h-[75vh] z-0 relative"
     >
       <div
         style={{
@@ -47,7 +47,7 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
-            className="bg-center sm:min-h-screen min-h-[90vh]"
+            className="bg-center sm:min-h-screen min-h-[75vh]"
             key={slideIndex}
             style={{
               flex: `0 0 ${slideWidth}%`,
@@ -61,17 +61,17 @@ export const ContentGraphic = () => {
         <div className=" flex  sm:gap-10 gap-12 mt-10 sm:px-4 px-3  flex-col justify-center items-center ">
           <div className="flex flex-col gap-2  items-center">
             {" "}
-            <p className="text-sm drop-shadow-2xl   text-white font-semibold">
+            <p className="text-sm drop-shadow-2xl uppercase   text-white font-medium">
               Premium Auto Detailing
             </p>
-            <h1 className="text-white drop-shadow-2xl leading-tight uppercase tracking-normal text-[31px] text-center font-semibold xl:text-7xl lg:text-5xl">
+            <h1 className="text-white drop-shadow-2xl leading-tight uppercase tracking-normal text-[31px] text-center font-medium xl:text-7xl lg:text-5xl">
               Fall in <span className="text-red-700">love</span> with your{" "}
               <br />
               car all over again
             </h1>
           </div>
 
-          <Button className="bg-transparent drop-shadow-2xl   font-bold text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-5  sm:px-20 sm:py-6 ">
+          <Button className="bg-transparent drop-shadow-2xl uppercase   font-medium text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-5  sm:px-20 sm:py-6 ">
             Learn More
           </Button>
           <div className="flex flex-row absolute justify-centers bottom-12 gap-4">
