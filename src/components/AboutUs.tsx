@@ -5,7 +5,7 @@ export const AboutUs = () => {
     <div className="max-h-[80vh] sm:max-h-[70vh] overflow-hidden max-sm:items-center flex flex-col max-sm:relative gap-4 sm:flex-row  bg-black     text-white">
       <img className="opacity-50 block sm:hidden" src="/backdrop.webp" alt="" />
       <div className="max-sm:absolute py-10 px-7 sm:w-1/2 flex items-center justify-center sm:px-20   gap-4">
-        <div className="flex  flex-col gap-4 w-96 max-sm:px-7 justify-center">
+        <div className="flex  flex-col gap-4 w-96 max-sm:px-4 justify-center">
           {" "}
           <h1 className="text-base 2xl:text-xl uppercase font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
             About Us
