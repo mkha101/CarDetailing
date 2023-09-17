@@ -83,19 +83,19 @@ export const MobileNavList = () => {
         }`}
       >
         {isOpen && (
-          <nav className=" flex   justify-between bg-zinc-900 items-center">
+          <nav className=" flex   justify-between bg-black items-center">
             <ul
               className={`grid grid-cols-1 w-full  text-center grid-rows-1 uppercase text-white tracking-[0.2em] text-base text-opacity-200 `}
             >
-              <li className="hover:text-red-700 bg-zinc-900 py-5   font-normal">
+              <li className="hover:text-red-700 bg-black py-5   font-normal">
                 <a className="" href="/">
                   Home
                 </a>
               </li>{" "}
-              <li className="hover:text-red-700  bg-zinc-900 py-5   font-normal">
+              <li className="hover:text-red-700  bg-black py-5   font-normal">
                 <a href="/Services">Services</a>
               </li>{" "}
-              <li className="hover:text-red-700  bg-zinc-900 py-5  font-normal">
+              <li className="hover:text-red-700  bg-black py-5  font-normal">
                 <a href="/portfolio">Portfolio</a>
               </li>{" "}
               <div className="flex items-center justify-center hover:bg-red-700 py-5 bg-blue-700">
