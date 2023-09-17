@@ -85,7 +85,7 @@ export const MobileNavList = () => {
         {isOpen && (
           <nav className=" flex   justify-between bg-black items-center">
             <ul
-              className={`grid grid-cols-1 w-full  text-center grid-rows-1 uppercase text-white tracking-[0.2em] text-base text-opacity-200 `}
+              className={`grid grid-cols-1 w-full  text-center grid-rows-1 uppercase text-white tracking-[0.2em] text-sm text-opacity-200 `}
             >
               <li className="hover:text-red-700 bg-black py-5   font-normal">
                 <a className="" href="/">
