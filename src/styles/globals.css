@@ -1,22 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.mobile-nav {
-  position: fixed;
-  top: 0;
-  left: 100%;
-  width: 100%;
-  min-height: 100vh;
-  display: block;
-  z-index: 98;
-  background-color: #12002f;
-  padding-top: 120px;
-  transition: 0.4s;
-}
-
-.mobile-nav.is-active {
-  left: 0;
-}
 
 .required-field::after {
   content: "*";

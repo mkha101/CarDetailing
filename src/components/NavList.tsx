@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Services } from "./Services";
 import { X, Menu } from "lucide-react";
 import "../styles/globals.css";
+import Container from "./Container";
 
 interface NavListProps {
   positionprop: string;
@@ -16,19 +17,19 @@ export const NavList: React.FC<NavListProps> = ({ setServices }) => {
         <img className="w-36 h-36  " src="/logo1.png" alt="" />
       </a>
       <ul className="flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16">
-        <li className="  hover:text-gray-500 font-normal">
+        <li className="  hover:text-red-700 font-normal">
           <a href="/">Home</a>
         </li>{" "}
-        <li className="  hover:text-gray-500 font-normal">
+        <li className="  hover:text-red-700 font-normal">
           <a href="/portfolio">Portfolio</a>
         </li>{" "}
         <button
           onMouseEnter={() => setServices(true)}
-          className="cursor-pointer tracking-[0.2em]   hover:text-gray-500 font-normal"
+          className="cursor-pointer tracking-[0.2em]   hover:text-red-700 font-normal"
         >
           Services
         </button>
-        <li className="  hover:text-gray-500 font-normal">
+        <li className="  hover:text-red-700 font-normal">
           <a href="/contact">Contact</a>
         </li>
       </ul>
@@ -51,49 +52,58 @@ export const MobileNavList = () => {
   return (
     <div>
       {" "}
-      <nav className="lg:hidden flex   flex-row items-center px-3 max-h-[11vh]  justify-between">
-        <a href="/">
-          <img className="w-24 " src="./logo1.png" alt="" />
-        </a>
-        <button
-          className="flex flex-col h-12 w-12 justify-center items-center "
-          onClick={toggleMenu}
-        >
-          <div
-            className={`${genericHamburgerLine} ${
-              isOpen && "rotate-45 translate-y-3 opacity-100 "
-            }`}
-          />
-          <div className={`${genericHamburgerLine} ${isOpen && "opacity-0"}`} />
-          <div
-            className={`${genericHamburgerLine} ${
-              isOpen && "-rotate-45 -translate-y-3 "
-            }`}
-          />
-        </button>
-      </nav>
+      <Container>
+        <nav className="lg:hidden flex   flex-row items-center  max-h-[11vh]  justify-between">
+          <a href="/">
+            <img className="w-24 " src="./logo1.png" alt="" />
+          </a>
+          <button
+            className="flex flex-col h-12 w-12 justify-center items-center "
+            onClick={toggleMenu}
+          >
+            <div
+              className={`${genericHamburgerLine} ${
+                isOpen && "rotate-45 translate-y-3 opacity-100 "
+              }`}
+            />
+            <div
+              className={`${genericHamburgerLine} ${isOpen && "opacity-0"}`}
+            />
+            <div
+              className={`${genericHamburgerLine} ${
+                isOpen && "-rotate-45 -translate-y-3 "
+              }`}
+            />
+          </button>
+        </nav>
+      </Container>
       <div
-        className={`overflow-hidden transition-all ease-in-out duration-500 ${
+        className={`overflow-hidden  transition-all ease-in-out duration-500 ${
           isOpen ? "max-h-screen" : "max-h-0"
         }`}
       >
         {isOpen && (
-          <nav className="min-h-[37vh]  flex justify-center items-center ">
+          <nav className=" flex   justify-between bg-zinc-900 items-center">
             <ul
-              className={`flex flex-col justify-center items-center text-white tracking-[0.2em] text-base text-opacity-200 gap-8`}
+              className={`grid grid-cols-1 w-full  text-center grid-rows-1 uppercase text-white tracking-[0.2em] text-base text-opacity-200 `}
             >
-              <li className="hover:text-gray-500 font-normal">
-                <a href="/">Home</a>
-              </li>
-              <li className="hover:text-gray-500 font-normal">
-                <a href="/portfolio">Portfolio</a>
-              </li>
-              <li className="hover:text-gray-500 font-normal">
-                <a href="/contact">Contact</a>
-              </li>
-              <li className="hover:text-gray-500 font-normal">
+              <li className="hover:text-red-700 bg-zinc-900 py-5   font-normal">
+                <a className="" href="/">
+                  Home
+                </a>
+              </li>{" "}
+              <li className="hover:text-red-700  bg-zinc-900 py-5   font-normal">
                 <a href="/Services">Services</a>
-              </li>
+              </li>{" "}
+              <li className="hover:text-red-700  bg-zinc-900 py-5  font-normal">
+                <a href="/portfolio">Portfolio</a>
+              </li>{" "}
+              <div className="flex items-center justify-center hover:bg-red-700 py-5 bg-blue-700">
+                {" "}
+                <li className="   font-normal">
+                  <a href="/contact">Contact Now</a>
+                </li>
+              </div>
             </ul>
           </nav>
         )}
