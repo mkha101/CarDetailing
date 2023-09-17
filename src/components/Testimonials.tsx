@@ -22,7 +22,7 @@ export const Testimonials = () => {
         alt=""
       />
 
-      <div className="absolute">
+      <div className="max-sm:absolute">
         {" "}
         <div className="mt-10   sm:items-center  sm:px-3 px-8  sm:ml-0 flex flex-col sm:gap-6 gap-3">
           <h1 className="text-base sm:text-xl  font-semibold uppercase     sm:text-white text-white underline decoration-red-700 decoration-2 underline-offset-8">
