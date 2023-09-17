@@ -21,7 +21,7 @@ export const Header = (props: Props) => {
 
   return (
     <header
-      className={` ${positionprop} fixed  w-full bg-black z-10  max-w-screen `}
+      className={` ${positionprop}   w-full bg-black z-10  max-w-screen `}
     >
       <Container>
         <NavList setServices={setServices} />
