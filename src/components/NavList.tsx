@@ -53,7 +53,7 @@ export const MobileNavList = () => {
       {" "}
       <nav className="lg:hidden flex   flex-row items-center px-3 max-h-[11vh]  justify-between">
         <a href="/">
-          <img className="w-24 pt-3" src="./logo1.png" alt="" />
+          <img className="w-24 " src="./logo1.png" alt="" />
         </a>
         <button
           className="flex flex-col h-12 w-12 justify-center items-center "
@@ -78,7 +78,7 @@ export const MobileNavList = () => {
         }`}
       >
         {isOpen && (
-          <nav className="min-h-[37vh] bg-black  flex justify-center items-center ">
+          <nav className="min-h-[37vh]  flex justify-center items-center ">
             <ul
               className={`flex flex-col justify-center items-center text-white tracking-[0.2em] text-base text-opacity-200 gap-8`}
             >

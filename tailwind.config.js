@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundColor: {
+        "header-opacity": "rgba(0, 0, 0, 0)",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },

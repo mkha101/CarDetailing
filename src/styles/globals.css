@@ -27,3 +27,9 @@
 .content-graphic {
   font-family: "Poppins", sans-serif;
 }
+
+/* CSS file, e.g., styles.css */
+.header-opacity {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease; /* Add a transition for smoothness */
+}
