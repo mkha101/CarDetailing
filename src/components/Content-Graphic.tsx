@@ -58,43 +58,43 @@ export const ContentGraphic = () => {
         ))}
       </div>
       <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-20">
-        <div className=" flex  sm:gap-10 gap-16 sm:mt-10 sm:px-4 px-3  flex-col justify-center items-center ">
+        <div className=" flex  sm:gap-10 gap-16 mt-10 sm:px-4 px-3  flex-col justify-center items-center ">
           <div className="flex flex-col gap-1  items-center">
             {" "}
-            <p className="text-sm drop-shadow-2xl uppercase   text-white font-medium">
+            <p className="text-xs drop-shadow-2xl uppercase  tracking-widest  text-white font-medium">
               Premium Auto Detailing
             </p>
-            <h1 className="text-white drop-shadow-2xl leading-tight uppercase tracking-normal text-3xl text-center font-medium xl:text-7xl lg:text-5xl">
+            <h1 className="text-white drop-shadow-2xl leading-tight uppercase  tracking-normal text-3xl text-center font-medium xl:text-7xl lg:text-5xl">
               Fall in <span className="text-red-700">love</span> with your{" "}
               <br />
               car all over again
             </h1>
           </div>
 
-          <Button className="bg-transparent drop-shadow-2xl uppercase    font-medium text-sm hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
+          <Button className="bg-transparent drop-shadow-2xl uppercase    font-medium text-base hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
             Learn More
           </Button>
-          <div className="flex flex-row absolute justify-centers bottom-12 gap-4">
+          <div className="flex flex-row absolute justify-centers bottom-5 gap-2">
             {slides.map((slide, slideIndex) => (
               <div
                 key={slideIndex}
                 onClick={() => setCurrentIndex(slideIndex)}
                 className={`${
                   currentIndex === slideIndex ? "bg-gray-500" : "bg-white"
-                } p-[5px] cursor-pointer hover:bg-gray-500 transition ease-in-out w-2 h-2 rounded-full`}
+                } p-[5px] cursor-pointer hover:bg-gray-500 transition ease-in-out w-1 h-1 rounded-full`}
               ></div>
             ))}
           </div>
-          <div className="absolute hidden sm:block cursor-pointer right-2 sm:right-14">
+          <div className="absolute hidden cursor-pointer right-2 sm:right-14">
             <ChevronRight onClick={nextSlide} size={56} color="white" />
           </div>
-          <div className="absolute  hidden sm:block cursor-pointer left-2 sm:left-14">
+          <div className="absolute  hidden  cursor-pointer left-2 sm:left-14">
             <ChevronLeft onClick={prevSlide} size={56} color="white" />
           </div>
-          <div className="absolute block sm:hidden cursor-pointer  bottom-9  right-6 sm:right-14">
+          <div className="absolute hidden cursor-pointer  bottom-9  right-6 sm:right-14">
             <ChevronRight onClick={nextSlide} size={36} color="white" />
           </div>
-          <div className="absolute  block sm:hidden cursor-pointer bottom-9  left-6 sm:left-14">
+          <div className="absolute hidden cursor-pointer bottom-9  left-6 sm:left-14">
             <ChevronLeft onClick={prevSlide} size={36} color="white" />
           </div>
         </div>
