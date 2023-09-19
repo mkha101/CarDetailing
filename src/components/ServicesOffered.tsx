@@ -3,8 +3,8 @@ import React from "react";
 export const ServicesOffered = () => {
   return (
     <div className="bg-black text-black">
-      <div className="grid  sm:grid-cols-2 grid-col-4 sm:max-h-screen border-x-[4px] sm:border-x-[16px] max-sm:py-2  sm:gap-3 border-black min-w-screen w-full grid-rows-4 sm:grid-rows-2 text-white">
-        <div className="relative sm:border-[8px] max-sm:p-2   cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+      <div className="grid  sm:grid-cols-2 grid-col-4 sm:max-h-screen border-x-[4px] sm:border-[12px] max-sm:py-2  sm:gap-3 border-black min-w-screen w-full grid-rows-4 sm:grid-rows-2 text-white">
+        <div className="relative  max-sm:p-2   cursor-pointer border-black bg-cover bg-center bg-no-repeat">
           <img
             src="/rims.jpeg"
             alt=""
@@ -17,7 +17,7 @@ export const ServicesOffered = () => {
             <p className="text-sm text-center font-medium  "></p>
           </div>
         </div>
-        <div className="relative sm:border-[8px] max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+        <div className="relative  max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
           <img
             src="/matte.webp"
             alt=""
@@ -30,7 +30,7 @@ export const ServicesOffered = () => {
             <p className="text-sm text-center font-medium  "></p>
           </div>
         </div>
-        <div className="relative sm:border-[8px] max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+        <div className="relative  max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
           <img
             src="/rim.jpeg"
             alt=""
@@ -43,7 +43,7 @@ export const ServicesOffered = () => {
             <p className="text-sm text-center font-medium  "></p>
           </div>
         </div>
-        <div className="relative sm:border-[8px] max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+        <div className="relative  max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
           <img
             src="/porsche.jpeg"
             alt=""
