@@ -14,7 +14,7 @@ export const NavList: React.FC<NavListProps> = ({ setServices }) => {
   return (
     <nav className="hidden   lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between">
       <a href="/">
-        <img className="w-36 h-36  " src="/logo1.png" alt="" />
+        <img className="w-36 h-36  " src="/" alt="" />
       </a>
       <ul className="flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16">
         <li className="  hover:text-red-700 font-normal">
@@ -55,7 +55,7 @@ export const MobileNavList = () => {
       <Container>
         <nav className="lg:hidden flex   flex-row items-center  max-h-[11vh]  justify-between">
           <a href="/">
-            <img className="w-24 " src="./logo1.png" alt="" />
+            <img className="w-24 " src="./" alt="" />
           </a>
           <button
             className="flex flex-col h-12 w-12 justify-center items-center "
