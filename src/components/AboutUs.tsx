@@ -3,8 +3,12 @@ import RevealOnScroll from "./RevealOnScroll";
 
 export const AboutUs = () => {
   return (
-    <div className="max-h-[70vh] sm:max-h-[70vh] overflow-hidden max-sm:items-center flex flex-col max-sm:relative gap-4 sm:flex-row  bg-black     text-white">
-      <img className="opacity-50 block sm:hidden" src="/backdrop.webp" alt="" />
+    <div className="  max-sm:border-[4px] max-sm:py-1 max-sm:px-2 border-black   sm:max-h-[70vh] overflow-hidden max-sm:items-center flex flex-col max-sm:relative gap-4 sm:flex-row  bg-black     text-white">
+      <img
+        className="opacity-50 block max-sm:rounded-xl sm:hidden"
+        src="/backdrop.webp"
+        alt=""
+      />
       <div className="max-sm:absolute py-10 px-7 sm:w-1/2 flex items-center justify-center sm:px-20   gap-4">
         <div className="flex  flex-col gap-4 w-96 max-sm:px-2 justify-center">
           {" "}
