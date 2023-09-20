@@ -16,7 +16,7 @@ import {
 
 export const Testimonials = () => {
   return (
-    <div className=" bg-black  max-sm:border-[4px] max-sm:py-1 max-sm:px-2 border-black  relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
+    <div className=" bg-black  max-sm:border-[4px] max-sm:pb-6 max-sm:px-2 border-black  relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
       <img
         className="opacity-50 w-full max-h-[30rem] max-sm:rounded-lg block sm:hidden"
         src="/aboutme.jpg"
@@ -25,7 +25,7 @@ export const Testimonials = () => {
 
       <div className="max-sm:absolute">
         {" "}
-        <div className="mt-10   sm:items-center  sm:px-3 px-8  sm:ml-0 flex flex-col sm:gap-6 gap-3">
+        <div className="mt-10  sm:items-center  sm:px-3 px-8  sm:ml-0 flex flex-col sm:gap-6 gap-3">
           <h1 className="text-base sm:text-xl  font-semibold uppercase     sm:text-white text-white underline decoration-red-700 decoration-2 underline-offset-8">
             Reviews
           </h1>
