@@ -9,7 +9,7 @@ const RevealOnScroll: React.FC<RevealOnScrollProps> = ({ children }) => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
   useEffect(() => {
-    const threshold = window.innerWidth < 736 ? 0.3 : 0.7;
+    const threshold = window.innerWidth < 736 ? 0.1 : 0.7;
 
     const observer = new IntersectionObserver(
       (entries) => {
