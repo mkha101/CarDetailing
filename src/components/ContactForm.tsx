@@ -18,21 +18,15 @@ export const ContactForm = () => {
   return (
     <div className="w-full sm:px-44 min-h-screen bg-white mt-10 flex flex-col   gap-10 max-w-screen ">
       <div className="hidden sm:flex sm:items-center uppercase px-3 ml-9 justify-center gap-3 flex-col ">
-        <RevealOnScroll>
-          <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
-            Get a Quote
-          </h1>
-        </RevealOnScroll>
-        <RevealOnScroll>
-          <p className="text-2xl sm:text-4xl sm:text-center font-bold">
-            If you like what you see, Contact Us!
-          </p>
-        </RevealOnScroll>
-        <RevealOnScroll>
-          <div className="flex flex-col mt-6 mr-9 justify-center items-center">
-            <LucideArrowDownCircle size={32} />
-          </div>
-        </RevealOnScroll>
+        <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
+          Get a Quote
+        </h1>
+        <p className="text-2xl sm:text-4xl sm:text-center font-bold">
+          If you like what you see, Contact Us!
+        </p>
+        <div className="flex flex-col mt-6 mr-9 justify-center items-center">
+          <LucideArrowDownCircle size={32} />
+        </div>
       </div>{" "}
       <div className="flex flex-row ">
         {" "}
