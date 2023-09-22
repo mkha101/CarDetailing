@@ -16,8 +16,8 @@ import RevealOnScroll from "./RevealOnScroll";
 
 export const ContactForm = () => {
   return (
-    <div className="w-full sm:px-44 min-h-screen bg-white mt-10 flex flex-col   gap-10 max-w-screen ">
-      <div className="hidden sm:flex sm:items-center uppercase px-3 ml-9 justify-center gap-3 flex-col ">
+    <div className="w-full sm:px-44 min-h-screen bg-black  pt-10 flex flex-col   gap-10 max-w-screen ">
+      <div className="hidden sm:flex sm:items-center uppercase px-3 ml-9 text-white justify-center gap-3 flex-col ">
         <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
           Get a Quote
         </h1>
@@ -30,8 +30,8 @@ export const ContactForm = () => {
       </div>{" "}
       <div className="flex flex-row ">
         {" "}
-        <div className="w-1/2  bg-white hidden sm:block "></div>
-        <div className="flex sm:w-1/2 w-full  flex-col items-center gap-10 ">
+        <div className="w-1/2  bg-black hidden sm:block "></div>
+        <div className="flex sm:w-1/2 w-full  text-white flex-col items-center gap-10 ">
           {" "}
           <div className="flex sm:hidden sm:items-center uppercase px-3 ml-4 justify-center gap-3 flex-col ">
             <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
@@ -46,7 +46,7 @@ export const ContactForm = () => {
           </div>{" "}
           <RevealOnScroll>
             <form>
-              <div className="flex w-96 flex-col  gap-5 border bg-zinc-100 shadow-xl sm:w-full  mb-20  py-5 rounded-3xl  ">
+              <div className="flex w-96 flex-col text-black gap-5 border bg-zinc-100 shadow-xl sm:w-full  mb-20  py-5 rounded-3xl  ">
                 <h1 className="px-5 text-xl font-semibold">
                   Step 1: Your Contact Details
                 </h1>
