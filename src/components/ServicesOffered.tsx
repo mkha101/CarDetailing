@@ -3,9 +3,9 @@ import RevealOnScroll from "./RevealOnScroll";
 
 export const ServicesOffered = () => {
   return (
-    <div className="bg-black sm:min-h-screen text-black">
+    <div className="bg-black  text-black">
       <RevealOnScroll>
-        <div className="grid  sm:grid-cols-2 grid-col-4  border-x-[4px]  sm:border-[18px] max-sm:py-2  sm:gap-3 border-black min-w-screen w-full grid-rows-4 sm:grid-rows-2 text-white">
+        <div className="grid  sm:grid-cols-2 grid-col-4  border-x-[4px]  sm:border-[8px] max-sm:py-2   border-black min-w-screen sm:max-h-[100vh] grid-rows-4 sm:grid-rows-2 text-white">
           <div className="relative  max-sm:p-2  sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
             <img
               src="/rims.jpeg"
