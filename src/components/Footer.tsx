@@ -9,7 +9,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className=" text-white gap-10 bg-cover bg-[url(/smoke.jpeg)] py-20 flex flex-col justify-center items-center">
+    <footer className=" text-white gap-10  bg-black py-20 flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center gap-3">
         <h1 className="text-base uppercase underline decoration-red-700 decoration-2 underline-offset-8 ">
           Pages
