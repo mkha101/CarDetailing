@@ -16,7 +16,7 @@ export const AboutUs = () => {
         <div className="flex  flex-col gap-4 sm:w-[35rem] max-sm:px-2 justify-center">
           {" "}
           <RevealOnScroll>
-            <h1 className="text-base 2xl:text-xl uppercase font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
+            <h1 className="text-base 2xl:text-xl uppercase font-semibold underline decoration-blue-700 decoration-2 underline-offset-8">
               About Us
             </h1>
           </RevealOnScroll>
@@ -34,7 +34,7 @@ export const AboutUs = () => {
               a level of perfection that surpasses expectations.
             </p>
           </RevealOnScroll>
-          <Button className="bg-transparent mt-10  tracking-widest font-bold text-xl hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full  px-20 py-6 ">
+          <Button className="bg-transparent mt-10  tracking-widest font-bold text-xl hover:bg-transparent hover:border-blue-700 transition duration-100 ease-in-out hover:text-blue-700 border-[2px] rounded-full  px-20 py-6 ">
             Learn More
           </Button>
         </div>

@@ -65,13 +65,13 @@ export const ContentGraphic = () => {
               Premium Auto Detailing
             </p>
             <h1 className="text-white drop-shadow-2xl leading-tight uppercase  tracking-tight text-3xl text-center font-semibold xl:text-7xl lg:text-5xl">
-              Fall in <span className="text-red-700">love</span> with your{" "}
+              Fall in <span className="text-blue-700">love</span> with your{" "}
               <br />
               car all over again
             </h1>
           </div>
 
-          <Button className="bg-transparent drop-shadow-2xl uppercase    font-semibold text-base hover:bg-transparent hover:border-red-700 transition duration-100 ease-in-out hover:text-red-700 border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
+          <Button className="bg-transparent drop-shadow-2xl uppercase    font-semibold text-base hover:bg-transparent hover:border-blue-700 transition duration-100 ease-in-out hover:text-blue-700 border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
             Learn More
           </Button>
           <div className="flex flex-row absolute justify-centers bottom-5 gap-2">
