@@ -5,8 +5,8 @@ export const ServicesOffered = () => {
   return (
     <div className="bg-black sm:min-h-screen text-black">
       <RevealOnScroll>
-        <div className="grid  sm:grid-cols-2 grid-col-4  border-x-[4px] sm:border-[12px] max-sm:py-2  sm:gap-3 border-black min-w-screen w-full grid-rows-4 sm:grid-rows-2 text-white">
-          <div className="relative  max-sm:p-2   cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+        <div className="grid  sm:grid-cols-2 grid-col-4  border-x-[4px]  sm:border-[18px] max-sm:py-2  sm:gap-3 border-black min-w-screen w-full grid-rows-4 sm:grid-rows-2 text-white">
+          <div className="relative  max-sm:p-2  sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
             <img
               src="/rims.jpeg"
               alt=""
@@ -20,7 +20,7 @@ export const ServicesOffered = () => {
             </div>
           </div>
 
-          <div className="relative  max-sm:p-2   cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+          <div className="relative  max-sm:p-2  sm:p-2  cursor-pointer border-black bg-cover bg-center bg-no-repeat">
             <img
               src="/matte.webp"
               alt=""
@@ -34,7 +34,7 @@ export const ServicesOffered = () => {
             </div>
           </div>
 
-          <div className="relative  max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+          <div className="relative  max-sm:p-2 sm:p-2  cursor-pointer border-black bg-cover bg-center bg-no-repeat">
             <img
               src="/rim.jpeg"
               alt=""
@@ -48,7 +48,7 @@ export const ServicesOffered = () => {
             </div>
           </div>
 
-          <div className="relative  max-sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+          <div className="relative  max-sm:p-2  sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
             <img
               src="/porsche.jpeg"
               alt=""

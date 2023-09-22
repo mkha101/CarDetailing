@@ -1,16 +1,19 @@
 import { Button } from "./ui/button";
 import RevealOnScroll from "./RevealOnScroll";
+import { ReviewCard } from "./ReviewCard";
+import { Testimonials } from "./Testimonials";
+import { BiggerScreenReviews } from "./BiggerScreenReviews";
 
 export const AboutUs = () => {
   return (
-    <div className="  max-sm:border-[4px] max-sm:py-1 max-sm:px-2 border-black   sm:max-h-[70vh] overflow-hidden max-sm:items-center flex flex-col max-sm:relative gap-4 sm:flex-row  bg-black     text-white">
+    <div className=" max-sm:bg-black   sm:bg-fixed bg-cover bg-[url(/aboutusbigbd.webp)]  max-sm:border-[4px] max-sm:py-1 max-sm:px-2 border-black py-20  sm:max-h-[70vh] overflow-hidden max-sm:items-center flex flex-col max-sm:relative gap-4        text-white">
       <img
         className="opacity-50 block max-sm:rounded-xl sm:hidden"
         src="/backdrop.webp"
         alt=""
       />
-      <div className="max-sm:absolute py-10 px-7 sm:w-1/2 flex items-center justify-center sm:px-20   gap-4">
-        <div className="flex  flex-col gap-4 w-96 max-sm:px-2 justify-center">
+      <div className="max-sm:absolute  py-10 px-7  flex items-center justify-center sm:px-20   gap-20">
+        <div className="flex  flex-col gap-4 sm:w-[35rem] max-sm:px-2 justify-center">
           {" "}
           <RevealOnScroll>
             <h1 className="text-base 2xl:text-xl uppercase font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
@@ -35,14 +38,10 @@ export const AboutUs = () => {
             Learn More
           </Button>
         </div>
-      </div>
-      <div className="sm:mt-0 max-w-5xl h-auto  bg-white ">
-        {" "}
-        <img
-          className=" h-full w-full hidden sm:block object-cover"
-          src="/aboutme.jpg"
-          alt=""
-        />
+        <div className="sm:block hidden">
+          {" "}
+          <BiggerScreenReviews />
+        </div>{" "}
       </div>
     </div>
   );

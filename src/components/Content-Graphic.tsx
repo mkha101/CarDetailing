@@ -85,10 +85,10 @@ export const ContentGraphic = () => {
               ></div>
             ))}
           </div>
-          <div className="absolute hidden cursor-pointer right-2 sm:right-14">
+          <div className="absolute hidden sm:block cursor-pointer right-2 sm:right-14">
             <ChevronRight onClick={nextSlide} size={56} color="white" />
           </div>
-          <div className="absolute  hidden  cursor-pointer left-2 sm:left-14">
+          <div className="absolute  hidden  sm:block  cursor-pointer left-2 sm:left-14">
             <ChevronLeft onClick={prevSlide} size={56} color="white" />
           </div>
           <div className="absolute hidden cursor-pointer  bottom-9  right-6 sm:right-14">
