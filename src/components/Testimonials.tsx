@@ -38,73 +38,82 @@ export const Testimonials = () => {
             {" "}
             <div className="flex gap-10 flex-row  ">
               {" "}
-              <div className="border relative px-2 flex justify-center items-start text-black flex-col    border-none bg-zinc-100 shadow-xl   w-[23rem] sm:w-[20rem] h-48 rounded-xl">
-                <div className="absolute top-10 flex left-3">
-                  <Star className=" " fill="black" />{" "}
-                  <Star className="" fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
+              <div className="border relative px-2 bg-zinc-700  flex justify-center items-start text-black flex-col    border-none  shadow-xl   min-w-[23rem] sm:w-[20rem] h-48 rounded-xl">
+                <div className="absolute top-12 flex left-3">
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
-                  <p className=" text-sm font-medium  "> Posted by </p>
-                  <span className="text-sm font-semibold text-red-700">
+                  <p className=" text-sm font-normal text-zinc-400  ">
+                    {" "}
+                    Posted by{" "}
+                  </p>
+                  <span className="text-sm font-normal text-blue-600">
                     Google
                   </span>
                 </div>
 
-                <div className="flex flex-col mt-1  px-1">
+                <div className="flex flex-col mt-6 px-1">
                   {" "}
-                  <p className="font-medium">
+                  <p className="font-normal text-white">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Nobis illo iusto enim, ipsa,
                   </p>
                 </div>
               </div>
-              <div className="border relative flex justify-center items-center     text-black flex-col   px-2 border-none bg-zinc-100 shadow-xl  w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
-                <div className="absolute top-10 flex left-3">
-                  <Star className=" " fill="black" />{" "}
-                  <Star className="" fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
+              <div className="border relative px-2 bg-zinc-700  flex justify-center items-start text-black flex-col    border-none  shadow-xl   min-w-[23rem] sm:w-[20rem] h-48 rounded-xl">
+                <div className="absolute top-12 flex left-3">
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
-                  <p className=" text-sm font-medium  "> Posted by </p>
-                  <span className="text-sm font-semibold text-red-700">
+                  <p className=" text-sm font-normal text-zinc-400  ">
+                    {" "}
+                    Posted by{" "}
+                  </p>
+                  <span className="text-sm font-normal text-blue-600">
                     Google
                   </span>
                 </div>
 
-                <div className="flex flex-col mt-1  px-1">
+                <div className="flex flex-col mt-6 px-1">
                   {" "}
-                  <p className="font-medium">
+                  <p className="font-normal text-white">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Nobis illo iusto enim, ipsa,
                   </p>
                 </div>
               </div>
-              <div className="border  flex justify-center items-center     text-black flex-col  relative px-2 border-none bg-zinc-100 shadow-xl w-[22rem] sm:w-[20rem]  h-48 rounded-xl">
-                <div className="absolute top-10 flex left-3">
-                  <Star className=" " fill="black" />{" "}
-                  <Star className="" fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
-                  <Star className=" " fill="black" />{" "}
+              <div className="border relative px-2 bg-zinc-700  flex justify-center items-start text-black flex-col    border-none  shadow-xl   min-w-[23rem] sm:w-[20rem] h-48 rounded-xl">
+                <div className="absolute top-12 flex left-3">
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
-                  <p className=" text-sm font-medium  "> Posted by </p>
-                  <span className="text-sm font-semibold  text-red-700">
+                  <p className=" text-sm font-normal text-zinc-400  ">
+                    {" "}
+                    Posted by{" "}
+                  </p>
+                  <span className="text-sm font-normal text-blue-600">
                     Google
                   </span>
                 </div>
 
-                <div className="flex flex-col mt-1  px-1">
+                <div className="flex flex-col mt-6 px-1">
                   {" "}
-                  <p className="font-medium ">
+                  <p className="font-normal text-white">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Nobis illo iusto enim, ipsa,
                   </p>
