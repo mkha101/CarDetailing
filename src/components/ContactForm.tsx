@@ -18,7 +18,7 @@ export const ContactForm = () => {
   return (
     <div className="w-full sm:px-44 min-h-screen bg-black  pt-10 flex flex-col   gap-10 max-w-screen ">
       <div className="hidden sm:flex sm:items-center uppercase px-3 ml-9 text-white justify-center gap-3 flex-col ">
-        <h1 className="text-lg sm:text-xl font-semibold underline decoration-red-700 decoration-2 underline-offset-8">
+        <h1 className="text-lg sm:text-xl font-semibold underline decoration-blue-700 decoration-2 underline-offset-8">
           Get a Quote
         </h1>
         <p className="text-2xl sm:text-4xl sm:text-center font-bold">

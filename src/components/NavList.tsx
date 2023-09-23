@@ -34,7 +34,7 @@ export const NavList: React.FC<NavListProps> = ({ setServices }) => {
         </li>
       </ul>
       <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>
-        <li className="hover:bg-transparent text-xl border-[2px]   transition ease-in-out hover:border-red-700  duration-100 hover:text-red-700 hover:bg-opacity-50  px-7 py-1 rounded-3xl cursor-pointer  font-semibold">
+        <li className="bg-blue-700 border-none text-xl   transition ease-in-out   duration-100  hover:bg-opacity-50  px-7 py-1 rounded-3xl cursor-pointer  font-semibold">
           <a href="/">Get Quote!</a>
         </li>
       </ul>
