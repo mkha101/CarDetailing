@@ -17,19 +17,19 @@ export const NavList: React.FC<NavListProps> = ({ setServices }) => {
         <img className="w-36 h-36  " src="/" alt="" />
       </a>
       <ul className="flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16">
-        <li className="  hover:text-red-700 font-normal">
+        <li className="  hover:text-blue-700 font-normal">
           <a href="/">Home</a>
         </li>{" "}
-        <li className="  hover:text-red-700 font-normal">
+        <li className="  hover:text-blue-700 font-normal">
           <a href="/portfolio">Portfolio</a>
         </li>{" "}
         <button
           onMouseEnter={() => setServices(true)}
-          className="cursor-pointer tracking-[0.2em]   hover:text-red-700 font-normal"
+          className="cursor-pointer tracking-[0.2em]   hover:text-blue-700 font-normal"
         >
           Services
         </button>
-        <li className="  hover:text-red-700 font-normal">
+        <li className="  hover:text-blue-700 font-normal">
           <a href="/contact">Contact</a>
         </li>
       </ul>
@@ -87,18 +87,18 @@ export const MobileNavList = () => {
             <ul
               className={`grid grid-cols-1 w-full  text-center grid-rows-1 uppercase text-white tracking-[0.2em] text-sm text-opacity-200 `}
             >
-              <li className="hover:text-red-700 bg-black py-5   font-normal">
+              <li className="hover:text-blue-700 bg-black py-5   font-normal">
                 <a className="" href="/">
                   Home
                 </a>
               </li>{" "}
-              <li className="hover:text-red-700  bg-black py-5   font-normal">
+              <li className="hover:text-blue-700  bg-black py-5   font-normal">
                 <a href="/Services">Services</a>
               </li>{" "}
-              <li className="hover:text-red-700  bg-black py-5  font-normal">
+              <li className="hover:text-blue-700  bg-black py-5  font-normal">
                 <a href="/portfolio">Portfolio</a>
               </li>{" "}
-              <div className="flex items-center justify-center hover:bg-red-700 py-5 bg-blue-700">
+              <div className="flex items-center justify-center hover:bg-blue-500 py-5 bg-blue-700">
                 {" "}
                 <li className="   font-normal">
                   <a href="/contact">Contact Now</a>
