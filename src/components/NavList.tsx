@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Services } from "./Services";
-import { X, Menu } from "lucide-react";
+import { X, Menu, Phone } from "lucide-react";
 import "../styles/globals.css";
 import Container from "./Container";
 
@@ -53,7 +53,14 @@ export const MobileNavList = () => {
     <div>
       {" "}
       <Container>
-        <nav className="lg:hidden flex   flex-row items-center  max-h-[11vh]  justify-between">
+        <nav className="lg:hidden flex px-5   flex-row items-center  max-h-[11vh]  justify-between">
+          <button>
+            {" "}
+            <Phone
+              size={35}
+              className="text-white  cursor-pointer  fill-black"
+            />{" "}
+          </button>{" "}
           <a href="/">
             <img className="w-24 " src="./" alt="" />
           </a>
