@@ -16,17 +16,17 @@ export const AboutUs = () => {
         <div className="flex  flex-col gap-4 sm:w-[35rem] max-sm:px-2 justify-center">
           {" "}
           <RevealOnScroll>
-            <h1 className="text-base 2xl:text-xl uppercase font-semibold underline decoration-blue-700 decoration-2 underline-offset-8">
+            <h1 className="text-base 2xl:text-xl uppercase font-medium underline decoration-blue-700 decoration-2 underline-offset-8">
               About Us
             </h1>
           </RevealOnScroll>
           <RevealOnScroll>
-            <p className="text-3xl 2xl:text-5xl uppercase font-bold">
+            <p className="text-3xl 2xl:text-5xl uppercase font-semibold">
               Trusted for Over 10 Years
             </p>
           </RevealOnScroll>
           <RevealOnScroll>
-            <p className="text-md mt-5 2xl:text-xl text-zinc-400 [word-spacing:3px] tracking-wide">
+            <p className="text-md mt-5 2xl:text-xl font-normal text-zinc-400 [word-spacing:3px] tracking-wide">
               Founded by a team of car aficionados, [Your Company Name] was born
               out of a shared love for cars and a desire to provide the best
               possible care for them. Our journey began in [Year Established]
@@ -34,7 +34,7 @@ export const AboutUs = () => {
               a level of perfection that surpasses expectations.
             </p>
           </RevealOnScroll>
-          <Button className="bg-transparent mt-10  tracking-widest font-bold text-xl hover:bg-transparent hover:border-blue-700 transition duration-100 ease-in-out hover:text-blue-700 border-[2px] rounded-full  px-20 py-6 ">
+          <Button className="bg-transparent mt-10  uppercase tracking-widest font-semibold text-xl hover:bg-transparent hover:border-blue-700 transition duration-100 ease-in-out hover:text-blue-700 border-[2px] rounded-full  px-20 py-6 ">
             Learn More
           </Button>
         </div>
