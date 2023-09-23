@@ -18,7 +18,7 @@ export const Testimonials = () => {
   return (
     <div className=" bg-black  max-sm:border-[4px] max-sm:pb-6 max-sm:px-2 border-black  relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
       <img
-        className="opacity-50 w-full max-h-[30rem] max-sm:rounded-lg block sm:hidden"
+        className="opacity-50 blur-sm w-full max-h-[30rem] max-sm:rounded-lg block sm:hidden"
         src="/aboutme.jpg"
         alt=""
       />

@@ -8,7 +8,7 @@ export const AboutUs = () => {
   return (
     <div className=" max-sm:bg-black   sm:bg-fixed bg-cover sm:bg-[url(/aboutusbigbd.webp)]  max-sm:border-[4px] max-sm:py-1 max-sm:px-2 border-black py-20  sm:max-h-[70vh] overflow-hidden max-sm:items-center flex flex-col max-sm:relative gap-4        text-white">
       <img
-        className="opacity-50 block max-sm:rounded-xl sm:hidden"
+        className="opacity-50 blur-sm block max-sm:rounded-xl sm:hidden"
         src="/backdrop.webp"
         alt=""
       />
