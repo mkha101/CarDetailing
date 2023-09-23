@@ -47,12 +47,13 @@ export const ContentGraphic = () => {
       >
         {slides.map((slide, slideIndex) => (
           <div
-            className="bg-center sm:min-h-screen min-h-[82vh]"
+            className="bg-center shadow-inner sm:min-h-screen min-h-[82vh]"
             key={slideIndex}
             style={{
               flex: `0 0 ${slideWidth}%`,
               backgroundImage: `url(${slide.url})`,
               backgroundSize: "cover",
+              boxShadow: "10px 80px 80px 20px black inset",
             }}
           ></div>
         ))}
