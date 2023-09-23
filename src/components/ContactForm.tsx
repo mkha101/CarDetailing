@@ -228,7 +228,7 @@ export const ContactForm = () => {
                   {" "}
                   <Button
                     type="submit"
-                    className="bg-blue-500 hover:bg-blue-400 text-white tracking-wide font-bold text-xl  transition  duration-100 ease-in-out  w-full mx-6 rounded-full  "
+                    className="bg-blue-700 hover:bg-blue-400 text-white tracking-wide font-bold text-xl  transition  duration-100 ease-in-out  w-full mx-6 rounded-full  "
                   >
                     Submit
                   </Button>
