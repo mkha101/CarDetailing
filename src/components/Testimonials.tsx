@@ -26,10 +26,10 @@ export const Testimonials = () => {
       <div className="max-sm:absolute">
         {" "}
         <div className="mt-10  sm:items-center  sm:px-3 px-8  sm:ml-0 flex flex-col sm:gap-6 gap-3">
-          <h1 className="text-base sm:text-xl  font-semibold uppercase     sm:text-white text-white underline decoration-blue-700 decoration-2 underline-offset-8">
+          <h1 className="text-base sm:text-xl  font-medium uppercase     sm:text-white text-white underline decoration-blue-700 decoration-2 underline-offset-8">
             Reviews
           </h1>
-          <p className="text-2xl sm:text-4xl  font-bold sm:text-center  uppercase    sm:text-white text-white  ">
+          <p className="text-2xl sm:text-4xl  font-semibold sm:text-center  uppercase    sm:text-white text-white  ">
             What our customers think
           </p>
         </div>

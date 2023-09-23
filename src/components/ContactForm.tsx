@@ -18,10 +18,10 @@ export const ContactForm = () => {
   return (
     <div className="w-full sm:px-44 min-h-screen bg-black  pt-10 flex flex-col   gap-10 max-w-screen ">
       <div className="hidden sm:flex sm:items-center uppercase px-3 ml-9 text-white justify-center gap-3 flex-col ">
-        <h1 className="text-lg sm:text-xl font-semibold underline decoration-blue-700 decoration-2 underline-offset-8">
+        <h1 className="text-lg sm:text-xl font-medium underline decoration-blue-700 decoration-2 underline-offset-8">
           Get a Quote
         </h1>
-        <p className="text-2xl sm:text-4xl sm:text-center font-bold">
+        <p className="text-2xl sm:text-4xl sm:text-center font-semibold">
           If you like what you see, Contact Us!
         </p>
         <div className="flex flex-col mt-6 mr-9 justify-center items-center">
@@ -34,10 +34,10 @@ export const ContactForm = () => {
         <div className="flex sm:w-1/2 w-full  text-white flex-col items-center gap-10 ">
           {" "}
           <div className="flex sm:hidden sm:items-center uppercase px-3 ml-4 justify-center gap-3 flex-col ">
-            <h1 className="text-lg sm:text-xl font-semibold underline decoration-blue-700 decoration-2 underline-offset-8">
+            <h1 className="text-lg sm:text-xl font-medium underline decoration-blue-700 decoration-2 underline-offset-8">
               Get a Quote
             </h1>
-            <p className="text-2xl sm:text-4xl sm:text-center font-bold">
+            <p className="text-2xl sm:text-4xl sm:text-center font-semibold">
               If you like what you see, Contact Us!
             </p>
             <div className="flex flex-col mt-6 mr-9 justify-center items-center">
@@ -47,7 +47,7 @@ export const ContactForm = () => {
           <RevealOnScroll>
             <form>
               <div className="flex w-96 flex-col text-black gap-5 border bg-zinc-100 shadow-xl sm:w-full  mb-20  py-5 rounded-3xl  ">
-                <h1 className="px-5 text-xl font-semibold">
+                <h1 className="px-5 text-xl font-medium">
                   Step 1: Your Contact Details
                 </h1>
                 <div className="flex   sm:flex-row flex-col  gap-6 px-5">
@@ -93,7 +93,7 @@ export const ContactForm = () => {
                   />
                 </div>
                 <div className=" border-[1px] w-full"></div>{" "}
-                <h1 className="px-5 text-xl font-semibold">
+                <h1 className="px-5 text-xl font-medium">
                   Step 2: Your Vehicle Information
                 </h1>
                 <div className="flex   sm:flex-row flex-col  gap-6 px-5">
@@ -138,7 +138,7 @@ export const ContactForm = () => {
                   />
                 </div>
                 <div className=" border-[1px] w-full"></div>
-                <h1 className="px-5 required-field  text-xl font-semibold">
+                <h1 className="px-5 required-field  text-xl font-medium">
                   Step 3: Add Services
                 </h1>
                 <RadioGroup
@@ -228,7 +228,7 @@ export const ContactForm = () => {
                   {" "}
                   <Button
                     type="submit"
-                    className="bg-blue-700 hover:bg-blue-400 text-white tracking-wide font-bold text-xl  transition  duration-100 ease-in-out  w-full mx-6 rounded-full  "
+                    className="bg-blue-700 hover:bg-blue-400 text-white tracking-wide font-semibold text-xl  transition  duration-100 ease-in-out  w-full mx-6 rounded-full  "
                   >
                     Submit
                   </Button>
