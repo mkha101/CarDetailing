@@ -56,10 +56,13 @@ export const MobileNavList = () => {
         <nav className="lg:hidden flex px-5 py-5   flex-row items-center  max-h-[11vh]  justify-between">
           <button>
             {" "}
-            <Phone
-              size={35}
-              className="text-white  cursor-pointer  fill-black"
-            />{" "}
+            <a href="tel:123-456-7890">
+              {" "}
+              <Phone
+                size={35}
+                className="text-white  cursor-pointer  fill-black"
+              />{" "}
+            </a>
           </button>{" "}
           <h1 className="text-white rounded-full border-none bg-zinc-900 p-2">
             <a href="/"> CarDetailer</a>
