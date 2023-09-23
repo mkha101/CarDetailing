@@ -6,11 +6,11 @@ export const ServicesOffered = () => {
     <div className="bg-black  text-black">
       <RevealOnScroll>
         <div className="grid  sm:grid-cols-2 grid-col-4  border-x-[4px] sm:gap-[4px]  sm:border-[12px] max-sm:py-2   border-black min-w-screen sm:max-h-[100vh] grid-rows-4 sm:grid-rows-2 text-white">
-          <div className="relative  max-sm:p-2  sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
+          <div className="relative   max-sm:p-2  sm:p-2 cursor-pointer border-black bg-cover bg-center bg-no-repeat">
             <img
               src="/rims.jpeg"
               alt=""
-              className="object-cover   max-sm:rounded-lg max-sm:border border-black  w-full h-full  shadow-inner opacity-80 "
+              className="object-cover shadow-inner max-sm:rounded-lg max-sm:border border-black  w-full h-full   opacity-80 "
             />
             <div className="absolute inset-0 flex px-6 gap-2 flex-col justify-center items-center">
               <h1 className="text-white  uppercase  tracking-wider text-2xl drop-shadow-2xl text-center font-medium md:text-4xl sm:text-3xl xl:text-5xl  2xl:text-5xl">
