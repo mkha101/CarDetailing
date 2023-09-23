@@ -39,9 +39,11 @@ export const Footer = () => {
           <li>Phone: Call or Text (123)-456-7890 </li>
         </ul>
       </div>{" "}
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col gap-4 items-center justify-center">
         {" "}
-        <img className="w-40 h-40  " src="./logo1.png" alt="" />
+        <h1 className="text-white rounded-full border-none bg-zinc-900 p-2">
+          <a href="/"> CarDetailer</a>
+        </h1>{" "}
         <div className="flex gap-3 items-center justify-center  flex-row">
           <InstagramIcon className="cursor-pointer hover:text-blue-700" />
           <FacebookIcon className="cursor-pointer hover:text-blue-700" />

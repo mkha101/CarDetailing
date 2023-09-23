@@ -60,14 +60,13 @@ export const ContentGraphic = () => {
       </div>
       <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-20">
         <div className=" flex  sm:gap-10 gap-16 mt-12 sm:px-4 px-3  flex-col justify-center items-center ">
-          <div className="flex flex-col gap-1  items-center">
+          <div className="flex flex-col   items-center">
             {" "}
             <p className="text-xs drop-shadow-2xl uppercase  tracking-widest  text-white font-normal">
               Premium Auto Detailing
             </p>
             <h1 className="text-white drop-shadow-2xl leading-tight uppercase  tracking-tight text-3xl text-center font-semibold xl:text-7xl lg:text-5xl">
-              Fall in <span className="text-blue-700">love</span> with your{" "}
-              <br />
+              Fall in love with your <br />
               car all over again
             </h1>
           </div>

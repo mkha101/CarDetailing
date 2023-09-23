@@ -53,7 +53,7 @@ export const MobileNavList = () => {
     <div>
       {" "}
       <Container>
-        <nav className="lg:hidden flex px-5   flex-row items-center  max-h-[11vh]  justify-between">
+        <nav className="lg:hidden flex px-5 py-5   flex-row items-center  max-h-[11vh]  justify-between">
           <button>
             {" "}
             <Phone
@@ -61,9 +61,9 @@ export const MobileNavList = () => {
               className="text-white  cursor-pointer  fill-black"
             />{" "}
           </button>{" "}
-          <a href="/">
-            <img className="w-24 " src="./" alt="" />
-          </a>
+          <h1 className="text-white rounded-full border-none bg-zinc-900 p-2">
+            <a href="/"> CarDetailer</a>
+          </h1>
           <button
             className="flex flex-col h-12 w-12 justify-center items-center "
             onClick={toggleMenu}
