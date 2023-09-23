@@ -120,12 +120,7 @@ export const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <div className="flex sm:hidden left-32  absolute bottom-7   border-white   flex-row gap-2">
-              <ArrowLeftCircle />
-
-              <p className="font-semibold text-base uppercase">Scrollable</p>
-              <ArrowRightCircle />
-            </div>
+            <div className="flex sm:hidden left-32  absolute bottom-7   border-white   flex-row gap-2"></div>
           </div>
         </RevealOnScroll>
       </div>
