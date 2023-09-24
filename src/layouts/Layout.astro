@@ -2,6 +2,8 @@
 import { Footer } from "@/components/Footer";
 import { FrequentlyAskedQ } from "@/components/FrequentlyAskedQ";
 import { Header } from "@/components/Header.tsx";
+import { InstaBeholdFeed } from "@/components/InstaBeholdFeed";
+import Instafeed from "@/components/Instafeed";
 import "@fontsource/poppins/100.css";
 import "@fontsource/poppins/200.css";
 import "@fontsource/poppins/300.css";
@@ -33,10 +35,11 @@ const { title, positionprop } = Astro.props as Props;
     <Header client:load positionprop={positionprop} />
     <slot />
     <FrequentlyAskedQ client:load />
-
+    <InstaBeholdFeed />
     <Footer />
   </body>
 </html>
+<script src="https://w.behold.so/widget.js" type="module"></script>
 <style is:global>
   body {
     font-family: "Poppins", sans-serif;
