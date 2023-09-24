@@ -5,8 +5,8 @@ import Layout from "../layouts/Layout.astro";
 import "@/styles/globals.css";
 ---
 
-<Layout positionprop="sticky" title="Freelance Template">
-  <main class="w-full max-w-screen">
-    <ContactForm client:load />
+<Layout positionprop="fixed" title="Freelance Template">
+  <main class="w-full max-w-screen bg-none">
+    <div class=""><ContactForm client:load /></div>
   </main>
 </Layout>

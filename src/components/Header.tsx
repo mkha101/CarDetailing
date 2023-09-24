@@ -12,7 +12,7 @@ export const Header = (props: Props) => {
 
   return (
     <header
-      className={` ${props.positionprop}   w-full bg-black 
+      className={` ${props.positionprop}   w-full bg-transparent 
        z-10  `}
     >
       <Container>

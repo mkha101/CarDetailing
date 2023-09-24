@@ -12,10 +12,10 @@ interface NavListProps {
 
 export const NavList: React.FC<NavListProps> = ({ setServices }) => {
   return (
-    <nav className="hidden   lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between">
-      <a href="/">
-        <img className="w-36 h-36  " src="/" alt="" />
-      </a>
+    <nav className="hidden  p-10 lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between">
+      <h1 className="text-white rounded-full border-none bg-zinc-900 p-2">
+        <a href="/"> CarDetailer</a>
+      </h1>
       <ul className="flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16">
         <li className="  hover:text-blue-700 font-normal">
           <a href="/">Home</a>
@@ -93,7 +93,7 @@ export const MobileNavList = () => {
         }`}
       >
         {isOpen && (
-          <nav className=" flex   justify-between bg-black items-center">
+          <nav className=" flex   justify-between  items-center">
             <ul
               className={`grid grid-cols-1 w-full  text-center grid-rows-1 uppercase text-white tracking-[0.2em] text-sm text-opacity-200 `}
             >
