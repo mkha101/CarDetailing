@@ -1,12 +1,11 @@
 ---
-import { ContactForm } from "@/components/ContactForm";
+import { Button } from "@/components/ui/button";
 import Layout from "../layouts/Layout.astro";
-
 import "@/styles/globals.css";
+import { PortfolioBanner } from "@/components/PortfolioBanner";
+import { ContactForm } from "@/components/ContactForm";
 ---
 
 <Layout positionprop="fixed" title="Freelance Template">
-  <main class="w-full max-w-screen bg-none">
-    <div class=""><ContactForm client:load /></div>
-  </main>
+  <main class="w-full max-w-screen min-h-screen bg-zinc-700"></main>
 </Layout>
