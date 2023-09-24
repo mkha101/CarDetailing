@@ -11,7 +11,7 @@ import Container from "./Container";
 export const FrequentlyAskedQ = () => {
   return (
     <div className=" bg-zinc-900   ">
-      <Container>
+      <div className="sm:max-w-[1800px] mx-auto xl:px-20 md:px-10 sm:px-2 ">
         <div className="px-7   p-12">
           <h1 className=" text-sm  py-3  font-semibold uppercase      text-white underline decoration-blue-700 decoration-2 underline-offset-8">
             FAQ
@@ -59,7 +59,7 @@ export const FrequentlyAskedQ = () => {
             </AccordionItem>
           </Accordion>
         </div>
-      </Container>{" "}
+      </div>{" "}
     </div>
   );
 };
