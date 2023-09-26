@@ -170,7 +170,7 @@ export const Testimonials = () => {
         </RevealOnScroll>
       </div>
       {showLeftScrollButton && (
-        <div className="absolute bottom-52 min-[1800px]:hidden  left-0">
+        <div className="absolute bottom-52 min-[1800px]:hidden  left-3">
           {" "}
           <ArrowLeftCircle
             size={32}
@@ -179,7 +179,7 @@ export const Testimonials = () => {
           />
         </div>
       )}
-      <div className="absolute  bottom-52 min-[1800px]:hidden  right-0">
+      <div className="absolute  bottom-52 min-[1800px]:hidden  right-6">
         {" "}
         <ArrowRightCircle
           size={32}
