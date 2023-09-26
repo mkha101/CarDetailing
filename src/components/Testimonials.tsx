@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import RevealOnScroll from "./RevealOnScroll";
 import {
@@ -15,6 +15,48 @@ import {
 } from "lucide-react";
 
 export const Testimonials = () => {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const [showLeftScrollButton, setShowLeftScrollButton] = useState(false);
+
+  const handleScroll = () => {
+    const container = containerRef.current;
+    if (container) {
+      setShowLeftScrollButton(container.scrollLeft > 20);
+    }
+  };
+
+  useEffect(() => {
+    if (containerRef.current) {
+      containerRef.current.addEventListener("scroll", handleScroll);
+    }
+
+    return () => {
+      if (containerRef.current) {
+        containerRef.current.addEventListener("scroll", handleScroll);
+      }
+    };
+  }, []);
+
+  const scrollTo = (scrollOffset: number) => {
+    const container = containerRef.current;
+    if (container) {
+      const scrollAmount = container.scrollLeft;
+      const scrollTarget = scrollAmount + scrollOffset;
+      const duration = 300;
+      const startTime = performance.now();
+
+      const animateScroll = (timestamp: number) => {
+        const elapsed = timestamp - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        container.scrollLeft = scrollAmount + progress * scrollOffset;
+
+        if (progress < 1) {
+          requestAnimationFrame(animateScroll);
+        }
+      };
+      requestAnimationFrame(animateScroll);
+    }
+  };
   return (
     <div className=" bg-black  max-sm:border-[4px] max-sm:pb-6 max-sm:px-2 border-black  relative overflow-hidden  flex flex-col items-center       sm:text-white text-white">
       <img
@@ -34,7 +76,10 @@ export const Testimonials = () => {
           </p>
         </div>
         <RevealOnScroll>
-          <div className="sm:grid grid-rows-1  max-sm:overflow-x-auto max-sm:max-w-[25rem]  grid-cols-1 flex pt-10 py-20 sm:items-center sm:justify-center flex-wrap px-6   gap-10 flex-col sm:flex-row">
+          <div
+            ref={containerRef}
+            className="sm:grid grid-rows-1  max-sm:overflow-x-auto max-sm:max-w-[25rem]  grid-cols-1 flex pt-10 py-20 sm:items-center sm:justify-center flex-wrap px-6   gap-10 flex-col sm:flex-row"
+          >
             {" "}
             <div className="flex gap-10 flex-row  ">
               {" "}
@@ -123,6 +168,24 @@ export const Testimonials = () => {
             <div className="flex sm:hidden left-32  absolute bottom-7   border-white   flex-row gap-2"></div>
           </div>
         </RevealOnScroll>
+      </div>
+      {showLeftScrollButton && (
+        <div className="absolute bottom-52 min-[1800px]:hidden  left-0">
+          {" "}
+          <ArrowLeftCircle
+            size={32}
+            className="cursor-pointer bg-transparent hover:text-blue-600"
+            onClick={() => scrollTo(-410)}
+          />
+        </div>
+      )}
+      <div className="absolute  bottom-52 min-[1800px]:hidden  right-0">
+        {" "}
+        <ArrowRightCircle
+          size={32}
+          className="cursor-pointer bg-transparent hover:text-blue-600"
+          onClick={() => scrollTo(410)}
+        />
       </div>
     </div>
   );
