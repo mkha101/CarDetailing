@@ -13,9 +13,10 @@ interface NavListProps {
 export const NavList: React.FC<NavListProps> = ({ setServices }) => {
   return (
     <nav className="hidden  p-10 lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between">
-      <h1 className="text-white rounded-full border-none bg-zinc-900 p-2">
-        <a href="/"> CarDetailer</a>
-      </h1>
+      <a href="/">
+        {" "}
+        <img className="h-36 w-36 mt-4 " src="./logo2.png" alt="" />
+      </a>
       <ul className="flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16">
         <li className="  hover:text-blue-700 font-normal">
           <a href="/">Home</a>
@@ -64,9 +65,10 @@ export const MobileNavList = () => {
               />{" "}
             </a>
           </button>{" "}
-          <h1 className="text-white rounded-full border-none bg-zinc-900 p-2">
-            <a href="/"> CarDetailer</a>
-          </h1>
+          <a className="w-28 " href="/">
+            {" "}
+            <img className="block w-[100%] h-auto  " src="./logo2.png" alt="" />
+          </a>
           <button
             className="flex flex-col h-12 w-12 justify-center items-center "
             onClick={toggleMenu}

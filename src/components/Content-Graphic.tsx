@@ -63,7 +63,7 @@ export const ContentGraphic = () => {
           <div className="flex flex-col   items-center">
             {" "}
             <p className="text-xs drop-shadow-2xl uppercase  tracking-widest  text-white font-normal">
-              Premium Auto Detailing
+              Mirror Magic Auto Detailing
             </p>
             <h1 className="text-white drop-shadow-2xl leading-tight uppercase  tracking-tight text-3xl text-center font-semibold xl:text-7xl lg:text-5xl">
               Fall in love with your <br />

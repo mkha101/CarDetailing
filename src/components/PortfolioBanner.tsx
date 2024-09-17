@@ -26,7 +26,7 @@ export const PortfolioBanner = () => {
               Detailing Portfolio
             </h1>
           </div>
-          <div className="grid w-full grid-cols-3   bg-black h-full border-[4px] gap-4  border-black grid-rows-3 text-white">
+          <div className="grid w-full grid-cols-3   bg-black h-full border-[4px] gap-2  border-black grid-rows-3 text-white">
             <div className="border-[1px]    hover:shadow-inner hover:inset-0  hover:opacity-90 transition ease-in-out cursor-pointer  border-black bg-[url(/rims.jpeg)] bg-cover flex flex-col justify-center items-center ">
               <h1 className="text-white text-center  font-medium text-xl">
                 Wheels and Tires
@@ -39,7 +39,6 @@ export const PortfolioBanner = () => {
               </h1>
             </div>
             <div className="border-[1px]  hover:shadow-inner hover:inset-0  hover:opacity-90 transition ease-in-out cursor-pointer  border-black bg-[url(/rim.jpeg)] bg-cover flex flex-col justify-center items-center ">
-              {" "}
               <h1 className="text-white text-center  font-medium text-xl">
                 Ceramic Coating
               </h1>
