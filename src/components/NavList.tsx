@@ -54,7 +54,7 @@ export const MobileNavList = () => {
     <div>
       {" "}
       <Container>
-        <nav className="lg:hidden flex px-5 py-5   flex-row items-center   justify-between">
+        <nav className="lg:hidden flex px-5 py-5   flex-row items-center   justify-center gap-24">
           <button>
             {" "}
             <a href="tel:123-456-7890">
@@ -65,7 +65,7 @@ export const MobileNavList = () => {
               />{" "}
             </a>
           </button>{" "}
-          <a className="flex  flex-row items-center justify-center " href="/">
+          <a className=" " href="/">
             <div className="w-28   ">
               <img
                 className="block  w-[100%] h-auto"
