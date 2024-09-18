@@ -35,7 +35,7 @@ export const NavList: React.FC<NavListProps> = ({ setServices }) => {
         </li>
       </ul>
       <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>
-        <li className="bg-blue-700 border-none text-xl   transition ease-in-out   duration-100  hover:bg-opacity-50  px-7 py-1 rounded-3xl cursor-pointer  font-semibold">
+        <li className="bg-blue-700 border-none text-x l   transition ease-in-out   duration-100  hover:bg-opacity-50  px-7 py-1 rounded-3xl cursor-pointer  font-semibold">
           <a href="/">Get Quote!</a>
         </li>
       </ul>
@@ -54,7 +54,7 @@ export const MobileNavList = () => {
     <div>
       {" "}
       <Container>
-        <nav className="lg:hidden flex px-5 py-5   flex-row items-center  max-h-[11vh]  justify-between">
+        <nav className="lg:hidden flex px-5 py-5   flex-row items-center   justify-between">
           <button>
             {" "}
             <a href="tel:123-456-7890">
@@ -65,9 +65,14 @@ export const MobileNavList = () => {
               />{" "}
             </a>
           </button>{" "}
-          <a className="w-28 " href="/">
-            {" "}
-            <img className="block w-[100%] h-auto  " src="./logo2.png" alt="" />
+          <a className="flex  flex-row items-center justify-center " href="/">
+            <div className="w-28   ">
+              <img
+                className="block  w-[100%] h-auto"
+                src="./logo4.png"
+                alt="car"
+              />
+            </div>
           </a>
           <button
             className="flex flex-col h-12 w-12 justify-center items-center "
