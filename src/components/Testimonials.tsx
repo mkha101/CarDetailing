@@ -68,7 +68,7 @@ export const Testimonials = () => {
       <div className="max-sm:absolute">
         {" "}
         <div className="mt-10  sm:items-center  sm:px-3 px-8  sm:ml-0 flex flex-col sm:gap-6 gap-3">
-          <h1 className="text-base sm:text-xl  font-medium uppercase     sm:text-white text-white underline decoration-blue-700 decoration-2 underline-offset-8">
+          <h1 className="text-base sm:text-xl  font-medium uppercase     sm:text-white text-white underline decoration-[#FE3C3B] decoration-2 underline-offset-8">
             Reviews
           </h1>
           <p className="text-2xl sm:text-4xl  font-semibold sm:text-center  uppercase    sm:text-white text-white  ">
@@ -85,11 +85,11 @@ export const Testimonials = () => {
               {" "}
               <div className="border relative px-2 bg-zinc-700  flex justify-center items-start text-black flex-col    border-none  shadow-xl   min-w-[23rem] sm:w-[20rem] h-48 rounded-xl">
                 <div className="absolute top-12 flex left-3">
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
@@ -97,7 +97,7 @@ export const Testimonials = () => {
                     {" "}
                     Posted by{" "}
                   </p>
-                  <span className="text-sm font-normal text-blue-600">
+                  <span className="text-sm font-normal text-[#FE3C3B]">
                     Google
                   </span>
                 </div>
@@ -112,11 +112,11 @@ export const Testimonials = () => {
               </div>
               <div className="border relative px-2 bg-zinc-700  flex justify-center items-start text-black flex-col    border-none  shadow-xl   min-w-[23rem] sm:w-[20rem] h-48 rounded-xl">
                 <div className="absolute top-12 flex left-3">
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
@@ -124,7 +124,7 @@ export const Testimonials = () => {
                     {" "}
                     Posted by{" "}
                   </p>
-                  <span className="text-sm font-normal text-blue-600">
+                  <span className="text-sm font-normal text-[#FE3C3B]">
                     Google
                   </span>
                 </div>
@@ -139,11 +139,11 @@ export const Testimonials = () => {
               </div>
               <div className="border relative px-2 bg-zinc-700  flex justify-center items-start text-black flex-col    border-none  shadow-xl   min-w-[23rem] sm:w-[20rem] h-48 rounded-xl">
                 <div className="absolute top-12 flex left-3">
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
@@ -151,7 +151,7 @@ export const Testimonials = () => {
                     {" "}
                     Posted by{" "}
                   </p>
-                  <span className="text-sm font-normal text-blue-600">
+                  <span className="text-sm font-normal text-[#FE3C3B]">
                     Google
                   </span>
                 </div>
@@ -174,7 +174,7 @@ export const Testimonials = () => {
           {" "}
           <ArrowLeftCircle
             size={32}
-            className="cursor-pointer bg-transparent hover:text-blue-600"
+            className="cursor-pointer bg-transparent hover:text-[#FE3C3B]"
             onClick={() => scrollTo(-410)}
           />
         </div>
@@ -183,7 +183,7 @@ export const Testimonials = () => {
         {" "}
         <ArrowRightCircle
           size={32}
-          className="cursor-pointer bg-transparent hover:text-blue-600"
+          className="cursor-pointer bg-transparent hover:text-[#FE3C3B]"
           onClick={() => scrollTo(410)}
         />
       </div>

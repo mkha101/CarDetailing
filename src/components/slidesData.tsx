@@ -1,12 +1,12 @@
 export const slides = [
   {
-    url: "./ferrari.jpeg",
+    url: "./370z.jpg",
   },
   {
-    url: "./rim.jpeg",
+    url: "./macan.jpg",
   },
   {
-    url: "./matte.webp",
+    url: "./lexus.jpg",
   },
   {
     url: "./porsche.jpeg",

@@ -18,7 +18,7 @@ export const AboutUs = () => {
           <div className="flex  flex-col gap-4 ">
             {" "}
             <RevealOnScroll>
-              <h1 className="text-base 2xl:text-xl uppercase font-medium underline decoration-blue-700 decoration-2 underline-offset-8">
+              <h1 className="text-base 2xl:text-xl uppercase font-medium underline decoration-[#FE3C3B] decoration-2 underline-offset-8">
                 About Us
               </h1>
             </RevealOnScroll>
@@ -39,7 +39,7 @@ export const AboutUs = () => {
           </div>
           <div>
             {" "}
-            <Button className="bg-transparent mt-10   uppercase tracking-widest font-semibold text-xl hover:bg-transparent hover:border-blue-700 transition duration-100 ease-in-out hover:text-blue-700 border-[2px] rounded-full  px-20 py-6 ">
+            <Button className="bg-transparent mt-10   uppercase tracking-widest font-semibold text-xl hover:bg-transparent hover:border-[#FE3C3B] transition duration-100 ease-in-out hover:text-[#FE3C3B] border-[2px] rounded-full  px-20 py-6 ">
               Learn More
             </Button>
           </div>

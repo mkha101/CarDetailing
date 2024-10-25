@@ -15,27 +15,27 @@ export const NavList: React.FC<NavListProps> = ({ setServices }) => {
     <nav className="hidden  p-10 lg:flex flex-row items-center max-h-[13vh]  px-3  justify-between">
       <a href="/">
         {" "}
-        <img className="h-36 w-36 mt-4 " src="./logo2.png" alt="" />
+        <img className=" w-48 mt-4 " src="./logoF.png" alt="" />
       </a>
       <ul className="flex  flex-row text-white tracking-[0.2em] text-base text-opacity-200 gap-16">
-        <li className="  hover:text-blue-700 font-normal">
+        <li className="  hover:text-[#FE3C3B] font-normal">
           <a href="/">Home</a>
         </li>{" "}
-        <li className="  hover:text-blue-700 font-normal">
+        <li className="  hover:text-[#FE3C3B] font-normal">
           <a href="/portfolio">Portfolio</a>
         </li>{" "}
         <button
           onMouseEnter={() => setServices(true)}
-          className="cursor-pointer tracking-[0.2em]   hover:text-blue-700 font-normal"
+          className="cursor-pointer tracking-[0.2em]   hover:text-[#FE3C3B] font-normal"
         >
           Services
         </button>
-        <li className="  hover:text-blue-700 font-normal">
+        <li className="  hover:text-[#FE3C3B] font-normal">
           <a href="/contact">Contact</a>
         </li>
       </ul>
       <ul className={`flex flex-row  text-white text-opacity-200 gap-6`}>
-        <li className="bg-blue-700 border-none text-x l   transition ease-in-out   duration-100  hover:bg-opacity-50  px-7 py-1 rounded-3xl cursor-pointer  font-semibold">
+        <li className="bg-[#FE3C3B] border-none text-x l   transition ease-in-out   duration-100  hover:bg-opacity-50  px-7 py-1 rounded-3xl cursor-pointer  font-semibold">
           <a href="/">Get Quote!</a>
         </li>
       </ul>

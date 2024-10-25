@@ -12,7 +12,7 @@ export const ReviewCard = () => {
       <div className="absolute top-4 left-3 flex gap-2">
         {" "}
         <p className=" text-sm font-medium  "> Posted by </p>
-        <span className="text-sm font-semibold text-red-700">Google</span>
+        <span className="text-sm font-semibold text-[#FE3C3B]">Google</span>
       </div>
 
       <div className="flex flex-col mt-1  px-1">

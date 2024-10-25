@@ -62,7 +62,7 @@ export const ContentGraphic = () => {
         <div className=" flex  sm:gap-10 gap-16 mt-12 sm:px-4 px-3  flex-col justify-center items-center ">
           <div className="flex flex-col   items-center">
             {" "}
-            <p className="text-xs drop-shadow-2xl uppercase  tracking-widest  text-white font-normal">
+            <p className="text-lg drop-shadow-2xl uppercase  tracking-widest  text-[#FE3C3B] font-normal">
               Mirror Magic Auto Detailing
             </p>
             <h1 className="text-white drop-shadow-2xl leading-tight uppercase  tracking-tight text-3xl text-center font-semibold xl:text-7xl lg:text-5xl">
@@ -71,7 +71,7 @@ export const ContentGraphic = () => {
             </h1>
           </div>
 
-          <Button className="bg-transparent drop-shadow-2xl uppercase tracking-widest    font-semibold text-base hover:bg-transparent hover:border-blue-700 transition duration-100 ease-in-out hover:text-blue-700 border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
+          <Button className="bg-transparent drop-shadow-2xl uppercase tracking-widest    font-semibold text-base hover:bg-transparent hover:border-[#FE3C3B] transition duration-100 ease-in-out hover:text-[#FE3C3B] border-[2px] rounded-full px-10 py-3  sm:px-20 sm:py-6 ">
             Learn More
           </Button>
           <div className="flex flex-row absolute justify-centers bottom-5 gap-2">
