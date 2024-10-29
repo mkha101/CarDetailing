@@ -104,18 +104,18 @@ export const MobileNavList = () => {
             <ul
               className={`grid grid-cols-1 w-full  text-center grid-rows-1 uppercase text-white tracking-[0.2em] text-sm text-opacity-200 `}
             >
-              <li className="hover:text-blue-700 bg-black py-5   font-normal">
+              <li className="hover:text-[#FE3C3B] bg-black py-5   font-normal">
                 <a className="" href="/">
                   Home
                 </a>
               </li>{" "}
-              <li className="hover:text-blue-700  bg-black py-5   font-normal">
+              <li className="hover:text-[#FE3C3B]  bg-black py-5   font-normal">
                 <a href="/Services">Services</a>
               </li>{" "}
-              <li className="hover:text-blue-700  bg-black py-5  font-normal">
+              <li className="hover:text-[#FE3C3B]  bg-black py-5  font-normal">
                 <a href="/portfolio">Portfolio</a>
               </li>{" "}
-              <div className="flex items-center justify-center hover:bg-blue-500 py-5 bg-blue-700">
+              <div className="flex items-center justify-center hover:bg-[#FE3C3B] py-5 bg-[#FE3C3B]">
                 {" "}
                 <li className="   font-normal">
                   <a href="/contact">Contact Now</a>

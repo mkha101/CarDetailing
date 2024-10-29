@@ -76,11 +76,11 @@ export const BiggerScreenReviews = () => {
               {" "}
               <div className="border relative px-2 bg-zinc-700  flex justify-center items-start text-black flex-col    border-none  shadow-xl   min-w-[16rem] sm:w-[23rem] h-48 rounded-xl">
                 <div className="absolute top-12 flex left-3">
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
@@ -88,7 +88,7 @@ export const BiggerScreenReviews = () => {
                     {" "}
                     Posted by{" "}
                   </p>
-                  <span className="text-sm font-normal text-blue-600">
+                  <span className="text-sm font-normal text-[#FE3C3B]">
                     Google
                   </span>
                 </div>
@@ -103,11 +103,11 @@ export const BiggerScreenReviews = () => {
               </div>
               <div className="border relative flex   justify-center items-center     text-black flex-col   px-2 border-none bg-zinc-700 shadow-xl   min-w-[16rem] sm:w-[23rem]  h-48 rounded-xl">
                 <div className="absolute top-12 flex left-3">
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
@@ -115,7 +115,7 @@ export const BiggerScreenReviews = () => {
                     {" "}
                     Posted by{" "}
                   </p>
-                  <span className="text-sm font-normal text-blue-600">
+                  <span className="text-sm font-normal text-[#FE3C3B]">
                     Google
                   </span>
                 </div>
@@ -130,11 +130,11 @@ export const BiggerScreenReviews = () => {
               </div>
               <div className="border flex   justify-center items-center   text-black flex-col  relative px-2 border-none bg-zinc-700 shadow-xl  min-w-[16rem] sm:w-[23rem]  h-48 rounded-xl">
                 <div className="absolute top-12 flex left-3">
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
-                  <Star className="text-blue-600 fill-blue-600 " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
+                  <Star className="text-[#FE3C3B] fill-[#FE3C3B] " fill="" />{" "}
                 </div>
                 <div className="absolute top-4 left-3 flex gap-2">
                   {" "}
@@ -142,7 +142,7 @@ export const BiggerScreenReviews = () => {
                     {" "}
                     Posted by{" "}
                   </p>
-                  <span className="text-sm font-normal  text-blue-600">
+                  <span className="text-sm font-normal  text-[#FE3C3B]">
                     Google
                   </span>
                 </div>
@@ -170,7 +170,7 @@ export const BiggerScreenReviews = () => {
           {" "}
           <ArrowLeftCircle
             size={32}
-            className="cursor-pointer bg-transparent hover:text-blue-600"
+            className="cursor-pointer bg-transparent hover:text-[#FE3C3B]"
             onClick={() => scrollTo(-290)}
           />
         </div>
@@ -179,7 +179,7 @@ export const BiggerScreenReviews = () => {
         {" "}
         <ArrowRightCircle
           size={32}
-          className="cursor-pointer bg-transparent hover:text-blue-600"
+          className="cursor-pointer bg-transparent hover:text-[#FE3C3B]"
           onClick={() => scrollTo(290)}
         />
       </div>
