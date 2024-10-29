@@ -6,9 +6,9 @@ export const slides = [
     url: "./macan.jpg",
   },
   {
-    url: "./lexus.jpg",
+    url: "./lexusfront.jpg",
   },
   {
-    url: "./porsche.jpeg",
+    url: "./lexusrx.jpg",
   },
 ];
