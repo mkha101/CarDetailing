@@ -34,18 +34,21 @@ export const Footer = () => {
           Business Info
         </h1>
         <ul className="flex text-sm flex-col justify-center items-center gap-3">
-          <li>Address:</li>
           <li>Hours:</li>
-          <li>Phone: Call or Text (123)-456-7890 </li>
+          <li>DM or Email: mm6detailing@gmail.com </li>
         </ul>
       </div>{" "}
       <div className="flex flex-col gap-4 items-center justify-center">
         {" "}
         <h1 className="text-white rounded-full border-none bg-zinc-900 p-2">
-          <a href="/"> CarDetailer</a>
+          <a href="/"> Mirror Magic Detailing</a>
         </h1>{" "}
         <div className="flex gap-3 items-center justify-center  flex-row">
-          <InstagramIcon className="cursor-pointer hover:text-[#FE3C3B]" />
+          <a target="_blank" href="https://www.instagram.com/mm6detailing/">
+            {" "}
+            <InstagramIcon className="cursor-pointer hover:text-[#FE3C3B]" />
+          </a>
+
           <FacebookIcon className="cursor-pointer hover:text-[#FE3C3B]" />
         </div>
       </div>
