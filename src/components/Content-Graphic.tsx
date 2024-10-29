@@ -68,7 +68,7 @@ export const ContentGraphic = () => {
             >
               {" "}
               <div className="border px-6 sm:px-12 border-1 opacity-80 border-[#FE3C3B]"></div>
-              <p className="sm:text-lg text-md drop-shadow-2xl uppercase  tracking-widest  text-white font-normal">
+              <p className="sm:text-lg text-sm drop-shadow-2xl uppercase  tracking-widest  text-white font-normal">
                 Mirror <span className="text-[#FE3C3B]">Magic</span> Auto
                 <span className="text-[#FE3C3B]"> Detailing</span>
               </p>
